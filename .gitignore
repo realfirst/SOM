@@ -1,7 +1,10 @@
 *.class
+*.sh
+*.py
+*.sql
 .directory
-pom2prj.xml
 # Package Files #
 *.jar
 *.war
 *.ear
+pom2prj.xml
