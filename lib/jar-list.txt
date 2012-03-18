@@ -1,0 +1,13 @@
+.
+├── commons-lang3-3.1.jar
+├── gt-graph-2.7.4.jar
+├── gt-metadata-2.7.4.jar
+├── gt-opengis-2.7.4.jar
+├── jar-list.txt
+├── jts-1.11.jar
+├── log4j-1.2.16.jar
+├── maven-ant-tasks-2.1.3.jar
+├── postgresql-9.1-901.jdbc4.jar
+└── vecmath-1.3.2.jar
+
+0 directories, 10 files

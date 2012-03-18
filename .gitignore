@@ -1,5 +1,6 @@
 *.class
-
+.directory
+pom2prj.xml
 # Package Files #
 *.jar
 *.war
