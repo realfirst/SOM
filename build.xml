@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<project name="quickstart" default="clean" basedir=".">
+  <description>
+    quick start build file
+  </description>
+
+  <!-- set global properties for this build -->
+  <property name="src.dir" location="src"/>
+  <property name="lib.dir" location="lib"/>
+  <property name="target" location="target"/>
+  <property name="dist" location="dist"/>
+
+  <path id="build.classpath">
+    <fileset dir="${lib.dir}">
+      <include name="**/*.jar"/>
+    </fileset>
+  </path>
+  
+
+  <target name="init">
+    <!-- create the time stamp -->
+    <tstamp/>
+    <!-- create the build directory structure used by compile -->
+    <mkdir dir="${target}/classes"/>
+    <mkdir dir="${target}/test-classes"/>
+  </target>
+
+  <target name="compile" depends="init" description="compile the source ">
+    <!-- compile the jave code from ${src} to ${target} -->
+    <javac srcdir="${src.dir}/main/java" destdir="${target}/classes"
+           includeAntRuntime="no">
+      <classpath refid="build.classpath"/>
+    </javac>
+  </target>
+
+  <target name="test" depends="compile" description="test the function">
+    <javac srcdir="${src.dir}/test/java" destdir="${target}/test-classes"
+           classpath="${target}/classes"/>
+  </target>
+
+  <!-- <target name="run-test" depends="test" destdir="run test"> -->
+
+  <target name="clean" description="clean up">
+    <!-- delete the ${target} and ${dist} -->
+    <delete dir="${target}"/>
+    <delete dir="{dist}"/>
+  </target>
+
+</project>

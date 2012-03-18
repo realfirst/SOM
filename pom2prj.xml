@@ -1,0 +1,69 @@
+<project xmlns:maven="urn:maven-artifact-ant"
+         name="pom2prj" default="for-ant" basedir=".">
+  <!--
+      pom2prj.xml
+      generate prj.el for JDEE from pom.xml.
+      author: epian
+      URL: http://epian-wiki.appspot.com/wiki/Emacs/JDEE
+      License: Apache License, Version 2.0
+  -->
+
+  <!-- Maven Ant Tasks -->
+  <path id="maven-ant-tasks.classpath">
+    <fileset dir="lib">
+      <include name="*.jar"/>
+    </fileset>
+  </path>
+  <typedef resource="org/apache/maven/artifact/ant/antlib.xml"
+           uri="urn:maven-artifact-ant"
+           classpathref="maven-ant-tasks.classpath" />
+
+  <!-- Initialize Groovy -->
+  <target name="init-groovy">
+    <maven:dependencies pathId="groovy.classpath">
+      <dependency groupId="org.codehaus.groovy" artifactId="groovy" version="1.6.0"/>
+    </maven:dependencies>
+    <taskdef name="groovy"
+             classname="org.codehaus.groovy.ant.Groovy"
+             classpathref="groovy.classpath"/>
+  </target>
+
+  <!-- Load pom.xml -->
+  <target name="load-pom" depends="init-groovy">
+    <maven:pom id="pom" file="${basedir}/pom.xml"/>
+    <maven:dependencies filesetId="all.fileset" pomRefId="pom"/>
+    <groovy>
+      home = properties["user.home"];
+      repo = home + "/.m2/repository/"
+      jars = "";
+      project.references["all.fileset"].each {
+          jars += " \"" + (repo + it.name).replaceAll("\\\\", '/') + "\"";
+      }
+      properties["jars"] = jars;
+    </groovy>
+  </target>
+
+  <!-- Generate prj.el for Development with Ant -->
+  <target name="for-ant" depends="load-pom">
+    <echo file="prj.el">(jde-project-file-version "1.0")
+(jde-set-variables
+  '(jde-build-function 'jde-ant-build)
+  '(jde-ant-working-directory "./")
+  '(jde-ant-read-target t)
+  '(jde-ant-enable-find t)
+  '(jde-sourcepath '("./src/test/java" "./src/main/java" ))
+  '(jde-global-classpath '("./target/classes" "./target/test-classes"${jars})))</echo>
+  </target>
+
+  <!-- Generate prj.el for Development with Maven 2 -->
+  <target name="for-maven" depends="load-pom">
+    <echo file="prj.el">(jde-project-file-version "1.0")
+(jde-set-variables
+  '(jde-build-function 'jde-make)
+  '(jde-make-program "mvn")
+  '(jde-read-make-args t)
+  '(jde-make-working-directory "./")
+  '(jde-sourcepath '("./src/test/java" "./src/main/java" ))
+  '(jde-global-classpath '("./target/classes" "./target/test-classes"${jars})))</echo>
+  </target>
+</project>
