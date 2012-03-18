@@ -1,0 +1,13 @@
+this is my research topic SOM(Spatial Outlier Mining)
+
+this project mainly implement of
+
+SLOM(Spatial Local Outlier Measure) and 
+
+SLOF(Spatial Local Outlier Factor) 
+
+algorithm. but i choose to use Delaunay Triangulation(DT) 
+
+to get the neighbor relationship of each spatial object.
+
+the test datasets is us2000 census saved in postgresql database. 
