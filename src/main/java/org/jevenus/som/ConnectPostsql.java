@@ -8,18 +8,18 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import org.apache.log4j.Logger;
+// import org.apache.log4j.Logger;
 
 public class ConnectPostsql {
   private static final String user = "arch";
   private static final String passwd = "1";
   private static final String url = "jdbc:postgresql://localhost/us08county";
 
-  public static final Logger LOG = Logger.getLogger(ConnectPostsql.class);
+  // public static final Logger LOG = Logger.getLogger(ConnectPostsql.class);
   
   public static void main(String[] args) {
-    new ConnectPostsql().connectDB();
-    LOG.info("conncetion successful!");
+    // new ConnectPostsql().connectDB();
+    // LOG.info("conncetion successful!");
   }
 
   ConnectPostsql() {}
@@ -47,8 +47,8 @@ public class ConnectPostsql {
                            name + " " + namelsad);
       }
     } catch (SQLException  se) {
-      // System.err.println("sql error");
-      LOG.error("sql exception" + se);
+      System.err.println("sql error");
+      // LOG.error("sql exception" + se);
     }
   }
 
@@ -59,8 +59,8 @@ public class ConnectPostsql {
     try {
       conn =  DriverManager.getConnection(url, user, passwd);
     } catch (SQLException sqe) {
-      // System.err.println("sql exeception!");
-      LOG.error("sql exception" + sqe);
+      System.err.println("sql exeception!");
+      // LOG.error("sql exception" + sqe);
     }
     return conn;
   }

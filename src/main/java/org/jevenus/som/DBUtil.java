@@ -18,6 +18,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
+
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
 
@@ -67,12 +68,26 @@ public class DBUtil {
       nbStmt = conn.createStatement();
       ResultSet nbsRs = nbStmt.executeQuery(nbsQuery);
 
+      long startTime;
+      long timeElapse;
+      int count = 0;
+      
       nbsSet = new HashSet<>();
+
+      startTime = System.currentTimeMillis();
       while (nbsRs.next()) {
+
 
         cntyidfp = nbsRs.getString("cntyid");
         
         if (!cntyidfp.equals(cntyidfpPre) && cntyidfpPre != null) {
+          count++;
+          if (count % 500 == 0) {
+            timeElapse = System.currentTimeMillis() - startTime;
+            System.out.print("求解了 " + count + "个对象 ");
+            System.out.println("用时：" + timeElapse);
+          }
+
           nbsMap.put(cntyidfpPre, nbsSet);
           nbsSet = new HashSet<>();
         }
@@ -250,7 +265,19 @@ public class DBUtil {
   
   public static List<String> getQueriedAttrs() {
     List<String> queriedAttrs = new ArrayList<>();
-    queriedAttrs = Arrays.asList("famale", "male");
+    // queriedAttrs = Arrays.asList("famale", "male");
+    // queriedAttrs = Arrays.asList("one_race", "r1_white",
+                                 // "r1_black_or_african_american",
+                                 // "r1_american_indian_and_alaska_native",
+                                 // "r1_asian",
+                                 // "r1_asian_indian", "r1_chinese", "r1_filipino",
+                                 // "r1_japanese", "r1_korean", "r1_vietnamese",
+                                 // "r1_other_asian",
+                                 // "r1_native_hawaiian_and_other_pacific_islander",
+                                 // "r1_some_other_race");
+    queriedAttrs = Arrays.asList("r1_asian_indian", "r1_chinese", "r1_filipino",
+                                 "r1_japanese", "r1_korean", "r1_vietnamese",
+                                 "r1_other_asian");
     return (queriedAttrs);
   }
 
@@ -292,10 +319,10 @@ public class DBUtil {
       }
     */
     
-    Map<String, Set<String>> tempMap = du.getNbs();//du.getAttrVal();
-    for (String cntyid : tempMap.keySet()) {
-      System.out.println(cntyid + " = " + tempMap.get(cntyid));
-    }
+    // Map<String, Set<String>> tempMap = du.getNbs();//du.getAttrVal();
+    // for (String cntyid : tempMap.keySet()) {
+      // System.out.println(cntyid + " = " + tempMap.get(cntyid));
+    // }
     
     // System.out.println(tempMap.size());
     // for (String cntyid : tempMap.keySet()) {
@@ -309,5 +336,11 @@ public class DBUtil {
     // System.out.println(du.getMaxList());
     // System.out.println(du.getLocation());
     // logger.info("location" + du.getLocation());
+    Map<String, List<String>> attrMap = du.getAttrVal();
+    for (String cntyidfp : attrMap.keySet()) {
+      System.out.println(cntyidfp + ": " + attrMap.get(cntyidfp));
+    }
+    
   }
+  
 }

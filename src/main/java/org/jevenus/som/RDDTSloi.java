@@ -11,9 +11,9 @@ package org.jevenus.som;
 
 import java.util.List;
 
-public class RDDTSlof extends Slof {
+public class RDDTSloi extends Sloi {
 
-  public RDDTSlof() {
+  public RDDTSloi() {
     DTNeighborhood dtnb = new DTNeighborhood();
     nbsMap = dtnb.getDtNb();
 
@@ -24,14 +24,13 @@ public class RDDTSlof extends Slof {
     List<Integer> maxListVal = dbu.getMaxList();
     List<Integer> minListVal = dbu.getMinList();
     attrsMap = attr.getNormalizedAttrs(attrsValMap, maxListVal, minListVal);
-    deta = Double.MIN_VALUE;
   }
 
   public static void main(String[] args) {
-    RDDTSlof rddtslof = new RDDTSlof();
-    rddtslof.runAlgo(rddtslof.getSlof());
-    // for (String cntyid : rddtslof.getSlof().keySet()) {
-      // System.out.println(cntyid + " = " + rddtslof.getSlof().get(cntyid));
+    RDDTSloi rddtsloi = new RDDTSloi();
+    rddtsloi.runAlgo(rddtsloi.getSloi());
+    // for (String cntyid : rddtsloi.getSloi().keySet()) {
+      // System.out.println(cntyid + " = " + rddtsloi.getSloi().get(cntyid));
     // }
   }
 }

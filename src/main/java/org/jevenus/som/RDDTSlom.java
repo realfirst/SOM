@@ -15,7 +15,7 @@ public class RDDTSlom extends Slom {
 
   public RDDTSlom() {
     DTNeighborhood dtnb = new DTNeighborhood();
-    nbsMap = dtnb.getDtNb();
+    nbsMap = dtnb.getDtNb(); // 获得邻居
 
     DBUtil dbu = new DBUtil();
     attrsValMap = dbu.getAttrVal();

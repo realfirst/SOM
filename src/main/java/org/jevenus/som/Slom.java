@@ -1,91 +1,17 @@
 /**
  * @file Slom.java
- * @brief implement of slom spatial outlier algorithm
+ * @brief
  * @author dingje <dingje.gm@gmail.com>
- * @date Sat Feb 11 15:17:19 2012
+ * @date Tue Apr  3 10:22:23 2012
  */
-
 package org.jevenus.som;
 
-import java.util.Map.Entry;
 import java.util.HashMap;
-import java.util.List;
+import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public abstract class Slom {
-
-  protected Map<String, Set<String>> nbsMap;
-  protected Map<String, List<Double>> attrsMap;
-  protected Map<String, List<String>> attrsValMap;
-  /*
-  // for real dataset
-  public Slom() {
-  DBUtil dbu = new DBUtil();
-  dbu.pareData(dbu.getQueriedAttrs());
-  Map<String, List<String>> attrsValMap = dbu.getAttrVal();
-  // nbsMap = dbu.getNbs();
-  DTNeighborhood dtnb = new DTNeighborhood();
-  nbsMap = dtnb.getDtNb();
-  Attribute attr = new Attribute();
-  List<Integer> maxListVal = dbu.getMaxList();
-  List<Integer> minListVal = dbu.getMinList();
-  attrsMap = attr.getNormalizedAttrs(attrsValMap, maxListVal, minListVal);
-  }
-  */
-  
-  // public Slom() {
-  // SDUtil sdu = new SDUtil();
-  // SDDTNeighborhood sddt = new SDDTNeighborhood(); // 合成数据德劳内三角邻居
-    
-
-  // nbsMap = sdu.getNbsMap();
-  // nbsMap = sddt.getSDDtNb();
-
-  // matrixMap = sdu.getMatrix();
-  // attrsMap = sdu.getNormalizedAttrsValue();
-  // }
-  
-  public double getAttrsDist(List<Double> la, List<Double> lb) {
-    double sum = 0.0;
-    if (la.size() != lb.size()) {
-      return (sum);
-    } else {
-      for (int i = 0; i < la.size(); i++) {
-        sum += Math.pow((la.get(i) - lb.get(i)), 2);
-      }
-    }
-    // System.out.println(Math.sqrt(sum));
-    return (Math.sqrt(sum));
-  }
-
-  public Map<String, Double> getModfiedAvgDist() {
-    Map<String, Double> modifiedAvgDist = new HashMap<>();
-
-    for (String cntyidfp : nbsMap.keySet()) { // 3136条记录，有3条记录(1500{1,3,7})的邻居集合是空
-      double maxDist = 0.0;
-      double distSum = 0.0;
-      List<Double> la = attrsMap.get(cntyidfp);
-      Set<String> nbSet = nbsMap.get(cntyidfp);
-      for (String _nbSet : nbSet) {
-        List<Double> lb = attrsMap.get(_nbSet);
-        double pairVal = getAttrsDist(la, lb);
-        if (pairVal > maxDist) {
-          maxDist = pairVal;
-        }
-        distSum += pairVal;
-      }
-
-      double avgDist;
-      if (nbSet.size() > 1) {
-        avgDist = (distSum - maxDist) / (nbSet.size() - 1);
-      } else {
-        avgDist = 0;
-      }
-      modifiedAvgDist.put(cntyidfp, avgDist);
-    }
-    return (modifiedAvgDist);
-  }
+public class Slom extends Sof {
 
   public Map<String, Double> getBeta() {
     Map<String, Double> betaMap = new HashMap<>();
@@ -97,7 +23,7 @@ public abstract class Slom {
     for (String nb : nbsMap.keySet()) {
       beta = 0.0;                       // step 1
 
-      Set<String> nbsSetPlus = nbsMap.get(nb);
+      Set<String> nbsSetPlus = new HashSet<>(nbsMap.get(nb));
       nbsSetPlus.add(nb);
 
       // System.out.println(nb + " = " + nbsSetPlus);
@@ -139,7 +65,7 @@ public abstract class Slom {
   }
   
   public Map<String, Double> getSlom() {
-    Map<String, Double> modifiedAvgDistMap = getModfiedAvgDist();
+    modifiedAvgDistMap = getModfiedAvgDist();
     Map<String, Double> betaMap = getBeta();
 
     Map<String, Double> slomMap = new HashMap<>();
@@ -152,46 +78,4 @@ public abstract class Slom {
     return (slomMap);
   }
 
-  public void runAlgo(Map<String, Double> inputMap) {
-    List<Entry<String, Double>> resultList = MapUtil.sortMapByValue(inputMap);
-    int cnt = 0;
-    System.out.println("cntyidfp\tlof");
-    for (Entry<String, Double> entry : resultList) {
-      cnt++;
-      if (cnt > 10) {
-        break ;
-      }
-      System.out.println("----------------------------------------------------------------------" + cnt);
-
-      String cntyid = entry.getKey();
-      System.out.println(cntyid + "\t" + entry.getValue());
-    
-
-      Set<String> nbsSet = nbsMap.get(cntyid);
-      System.out.println("nbs\t" + nbsSet );
-      System.out.print("val\t");
-      for (String nb : nbsSet) {
-        System.out.print(attrsValMap.get(nb) + "\t");
-      }
-      System.out.println();
-    }
-    System.out.println("----------------------------------------------------------------------");
-  }
-
-  
-  // public static void main(String[] args) {
-  // List<Double> la = Arrays.asList(1.0f, 2.0f);
-  // List<Double> lb = Arrays.asList(2.0f, 3.0f);
-  // Slom slom = new Slom();
-  // System.out.println(slom.getModfiedAvgDist());
-  // MapUtil.sortMapByValue(slom.getSlom(), slom.nbsMap, slom.matrixMap);
-  // for (String cntyidfp : result.keySet()) {
-  // System.out.println(cntyidfp + " = " + result.get(cntyidfp));
-  // }
-  // System.out.println(result);
-  // System.out.println(slom.nbsMap);
-  // System.out.println(slom.getModfiedAvgDist());
-  // System.out.println(slom.getAttrsDist(la, lb));
-  // System.out.println(slom.getAttrsDist());
-  // }
 }

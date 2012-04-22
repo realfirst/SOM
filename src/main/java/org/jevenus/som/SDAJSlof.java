@@ -13,12 +13,18 @@ public class SDAJSlof extends Slof {
     SDUtil sdu = new SDUtil();
     attrsMap = sdu.getNormalizedAttrsValue();
     nbsMap = sdu.getNbsMap();
+    attrsMap = sdu.getNormalizedAttrsValue();
+    attrsValMap = sdu.getMatrix();
+    
     deta = 0.01;
+
   }
 
   public static void main(String[] args) {
     SDAJSlof sdajslof = new SDAJSlof();
-    MapUtil.sortMapByValue(sdajslof.getSlof());
+    System.out.println(sdajslof);
+    // MapUtil.sortMapByValue(sdajslof.getSlof());
+    sdajslof.runAlgo(sdajslof.getSlof());
   }
   
 }

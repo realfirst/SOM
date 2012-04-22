@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-public abstract class Slof extends Slom {
+public abstract class Slof extends Sof {
 
     protected double deta;
 

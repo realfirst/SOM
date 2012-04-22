@@ -9,6 +9,9 @@
 
 package org.jevenus.som;
 
+import java.util.Map;
+import java.util.TreeSet;
+
 public class SDAJSlom extends Slom {
 
   public SDAJSlom() {
@@ -22,6 +25,13 @@ public class SDAJSlom extends Slom {
 
   public static void main(String[] args) {
     SDAJSlom sdajslom = new SDAJSlom();
+    Map<String, Double> modifiedDistMap = sdajslom.getModfiedAvgDist();
+    // System.out.println("********************");
+    // for (String loc : new TreeSet<String>(modifiedDistMap.keySet())) {
+      // System.out.println(loc + ": " + modifiedDistMap.get(loc));
+      // System.out.printf("%s: %.2f\n", loc, modifiedDistMap.get(loc));
+    // }
+    // System.out.println("********************");
     // MapUtil.sortMapByValue(sdajslom.getSlom());
     sdajslom.runAlgo(sdajslom.getSlom());
   }
