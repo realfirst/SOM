@@ -1,10 +1,11 @@
 this is my research topic SOM(Spatial Outlier Mining)
 
 this project mainly implements of
-
-SLOM(Spatial Local Outlier Measure) and 
+SLOI(Spatial Local Outlier Index)
 
 SLOF(Spatial Local Outlier Factor) 
+
+SLOM(Spatial Local Outlier Measure) and 
 
 algorithm. but i choose to use Delaunay Triangulation(DT) 
 
