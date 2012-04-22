@@ -1,0 +1,6377 @@
+01001
+01003
+01005
+01007
+01009
+01011
+01013
+01015
+01017
+01019
+01021
+01023
+01025
+01027
+01029
+01031
+01033
+01035
+01037
+01039
+01041
+01043
+01045
+01047
+01049
+01051
+01053
+01055
+01057
+01059
+01061
+01063
+01065
+01067
+01069
+01071
+01073
+01075
+01077
+01079
+01081
+01083
+01085
+01087
+01089
+01091
+01093
+01095
+01097
+01099
+01101
+01103
+01105
+01107
+01109
+01111
+01113
+01115
+01117
+01119
+01121
+01123
+01125
+01127
+01129
+01131
+01133
+02013
+02016
+02020
+02050
+02060
+02068
+02070
+02090
+02100
+02110
+02122
+02130
+02150
+02164
+02170
+02180
+02185
+02188
+02201
+02220
+02240
+02261
+02270
+02280
+02282
+02290
+04001
+04003
+04005
+04007
+04009
+04011
+04012
+04013
+04015
+04017
+04019
+04021
+04023
+04025
+04027
+05001
+05003
+05005
+05007
+05009
+05011
+05013
+05015
+05017
+05019
+05021
+05023
+05025
+05027
+05029
+05031
+05033
+05035
+05037
+05039
+05041
+05043
+05045
+05047
+05049
+05051
+05053
+05055
+05057
+05059
+05061
+05063
+05065
+05067
+05069
+05071
+05073
+05075
+05077
+05079
+05081
+05083
+05085
+05087
+05089
+05091
+05093
+05095
+05097
+05099
+05101
+05103
+05105
+05107
+05109
+05111
+05113
+05115
+05117
+05119
+05121
+05123
+05125
+05127
+05129
+05131
+05133
+05135
+05137
+05139
+05141
+05143
+05145
+05147
+05149
+06001
+06003
+06005
+06007
+06009
+06011
+06013
+06015
+06017
+06019
+06021
+06023
+06025
+06027
+06029
+06031
+06033
+06035
+06037
+06039
+06041
+06043
+06045
+06047
+06049
+06051
+06053
+06055
+06057
+06059
+06061
+06063
+06065
+06067
+06069
+06071
+06073
+06075
+06077
+06079
+06081
+06083
+06085
+06087
+06089
+06091
+06093
+06095
+06097
+06099
+06101
+06103
+06105
+06107
+06109
+06111
+06113
+06115
+08001
+08003
+08005
+08007
+08009
+08011
+08013
+08015
+08017
+08019
+08021
+08023
+08025
+08027
+08029
+08031
+08033
+08035
+08037
+08039
+08041
+08043
+08045
+08047
+08049
+08051
+08053
+08055
+08057
+08059
+08061
+08063
+08065
+08067
+08069
+08071
+08073
+08075
+08077
+08079
+08081
+08083
+08085
+08087
+08089
+08091
+08093
+08095
+08097
+08099
+08101
+08103
+08105
+08107
+08109
+08111
+08113
+08115
+08117
+08119
+08121
+08123
+08125
+09001
+09003
+09005
+09007
+09009
+09011
+09013
+09015
+10001
+10003
+10005
+11001
+12001
+12003
+12005
+12007
+12009
+12011
+12013
+12015
+12017
+12019
+12021
+12023
+12027
+12029
+12031
+12033
+12035
+12037
+12039
+12041
+12043
+12045
+12047
+12049
+12051
+12053
+12055
+12057
+12059
+12061
+12063
+12065
+12067
+12069
+12071
+12073
+12075
+12077
+12079
+12081
+12083
+12085
+12086
+12087
+12089
+12091
+12093
+12095
+12097
+12099
+12101
+12103
+12105
+12107
+12109
+12111
+12113
+12115
+12117
+12119
+12121
+12123
+12125
+12127
+12129
+12131
+12133
+13001
+13003
+13005
+13007
+13009
+13011
+13013
+13015
+13017
+13019
+13021
+13023
+13025
+13027
+13029
+13031
+13033
+13035
+13037
+13039
+13043
+13045
+13047
+13049
+13051
+13053
+13055
+13057
+13059
+13061
+13063
+13065
+13067
+13069
+13071
+13073
+13075
+13077
+13079
+13081
+13083
+13085
+13087
+13089
+13091
+13093
+13095
+13097
+13099
+13101
+13103
+13105
+13107
+13109
+13111
+13113
+13115
+13117
+13119
+13121
+13123
+13125
+13127
+13129
+13131
+13133
+13135
+13137
+13139
+13141
+13143
+13145
+13147
+13149
+13151
+13153
+13155
+13157
+13159
+13161
+13163
+13165
+13167
+13169
+13171
+13173
+13175
+13177
+13179
+13181
+13183
+13185
+13187
+13189
+13191
+13193
+13195
+13197
+13199
+13201
+13205
+13207
+13209
+13211
+13213
+13215
+13217
+13219
+13221
+13223
+13225
+13227
+13229
+13231
+13233
+13235
+13237
+13239
+13241
+13243
+13245
+13247
+13249
+13251
+13253
+13255
+13257
+13259
+13261
+13263
+13265
+13267
+13269
+13271
+13273
+13275
+13277
+13279
+13281
+13283
+13285
+13287
+13289
+13291
+13293
+13295
+13297
+13299
+13301
+13303
+13305
+13307
+13309
+13311
+13313
+13315
+13317
+13319
+13321
+15001
+15003
+15005
+15007
+15009
+16001
+16003
+16005
+16007
+16009
+16011
+16013
+16015
+16017
+16019
+16021
+16023
+16025
+16027
+16029
+16031
+16033
+16035
+16037
+16039
+16041
+16043
+16045
+16047
+16049
+16051
+16053
+16055
+16057
+16059
+16061
+16063
+16065
+16067
+16069
+16071
+16073
+16075
+16077
+16079
+16081
+16083
+16085
+16087
+17001
+17003
+17005
+17007
+17009
+17011
+17013
+17015
+17017
+17019
+17021
+17023
+17025
+17027
+17029
+17031
+17033
+17035
+17037
+17039
+17041
+17043
+17045
+17047
+17049
+17051
+17053
+17055
+17057
+17059
+17061
+17063
+17065
+17067
+17069
+17071
+17073
+17075
+17077
+17079
+17081
+17083
+17085
+17087
+17089
+17091
+17093
+17095
+17097
+17099
+17101
+17103
+17105
+17107
+17109
+17111
+17113
+17115
+17117
+17119
+17121
+17123
+17125
+17127
+17129
+17131
+17133
+17135
+17137
+17139
+17141
+17143
+17145
+17147
+17149
+17151
+17153
+17155
+17157
+17159
+17161
+17163
+17165
+17167
+17169
+17171
+17173
+17175
+17177
+17179
+17181
+17183
+17185
+17187
+17189
+17191
+17193
+17195
+17197
+17199
+17201
+17203
+18001
+18003
+18005
+18007
+18009
+18011
+18013
+18015
+18017
+18019
+18021
+18023
+18025
+18027
+18029
+18031
+18033
+18035
+18037
+18039
+18041
+18043
+18045
+18047
+18049
+18051
+18053
+18055
+18057
+18059
+18061
+18063
+18065
+18067
+18069
+18071
+18073
+18075
+18077
+18079
+18081
+18083
+18085
+18087
+18089
+18091
+18093
+18095
+18097
+18099
+18101
+18103
+18105
+18107
+18109
+18111
+18113
+18115
+18117
+18119
+18121
+18123
+18125
+18127
+18129
+18131
+18133
+18135
+18137
+18139
+18141
+18143
+18145
+18147
+18149
+18151
+18153
+18155
+18157
+18159
+18161
+18163
+18165
+18167
+18169
+18171
+18173
+18175
+18177
+18179
+18181
+18183
+19001
+19003
+19005
+19007
+19009
+19011
+19013
+19015
+19017
+19019
+19021
+19023
+19025
+19027
+19029
+19031
+19033
+19035
+19037
+19039
+19041
+19043
+19045
+19047
+19049
+19051
+19053
+19055
+19057
+19059
+19061
+19063
+19065
+19067
+19069
+19071
+19073
+19075
+19077
+19079
+19081
+19083
+19085
+19087
+19089
+19091
+19093
+19095
+19097
+19099
+19101
+19103
+19105
+19107
+19109
+19111
+19113
+19115
+19117
+19119
+19121
+19123
+19125
+19127
+19129
+19131
+19133
+19135
+19137
+19139
+19141
+19143
+19145
+19147
+19149
+19151
+19153
+19155
+19157
+19159
+19161
+19163
+19165
+19167
+19169
+19171
+19173
+19175
+19177
+19179
+19181
+19183
+19185
+19187
+19189
+19191
+19193
+19195
+19197
+20001
+20003
+20005
+20007
+20009
+20011
+20013
+20015
+20017
+20019
+20021
+20023
+20025
+20027
+20029
+20031
+20033
+20035
+20037
+20039
+20041
+20043
+20045
+20047
+20049
+20051
+20053
+20055
+20057
+20059
+20061
+20063
+20065
+20067
+20069
+20071
+20073
+20075
+20077
+20079
+20081
+20083
+20085
+20087
+20089
+20091
+20093
+20095
+20097
+20099
+20101
+20103
+20105
+20107
+20109
+20111
+20113
+20115
+20117
+20119
+20121
+20123
+20125
+20127
+20129
+20131
+20133
+20135
+20137
+20139
+20141
+20143
+20145
+20147
+20149
+20151
+20153
+20155
+20157
+20159
+20161
+20163
+20165
+20167
+20169
+20171
+20173
+20175
+20177
+20179
+20181
+20183
+20185
+20187
+20189
+20191
+20193
+20195
+20197
+20199
+20201
+20203
+20205
+20207
+20209
+21001
+21003
+21005
+21007
+21009
+21011
+21013
+21015
+21017
+21019
+21021
+21023
+21025
+21027
+21029
+21031
+21033
+21035
+21037
+21039
+21041
+21043
+21045
+21047
+21049
+21051
+21053
+21055
+21057
+21059
+21061
+21063
+21065
+21067
+21069
+21071
+21073
+21075
+21077
+21079
+21081
+21083
+21085
+21087
+21089
+21091
+21093
+21095
+21097
+21099
+21101
+21103
+21105
+21107
+21109
+21111
+21113
+21115
+21117
+21119
+21121
+21123
+21125
+21127
+21129
+21131
+21133
+21135
+21137
+21139
+21141
+21143
+21145
+21147
+21149
+21151
+21153
+21155
+21157
+21159
+21161
+21163
+21165
+21167
+21169
+21171
+21173
+21175
+21177
+21179
+21181
+21183
+21185
+21187
+21189
+21191
+21193
+21195
+21197
+21199
+21201
+21203
+21205
+21207
+21209
+21211
+21213
+21215
+21217
+21219
+21221
+21223
+21225
+21227
+21229
+21231
+21233
+21235
+21237
+21239
+22001
+22003
+22005
+22007
+22009
+22011
+22013
+22015
+22017
+22019
+22021
+22023
+22025
+22027
+22029
+22031
+22033
+22035
+22037
+22039
+22041
+22043
+22045
+22047
+22049
+22051
+22053
+22055
+22057
+22059
+22061
+22063
+22065
+22067
+22069
+22071
+22073
+22075
+22077
+22079
+22081
+22083
+22085
+22087
+22089
+22091
+22093
+22095
+22097
+22099
+22101
+22103
+22105
+22107
+22109
+22111
+22113
+22115
+22117
+22119
+22121
+22123
+22125
+22127
+23001
+23003
+23005
+23007
+23009
+23011
+23013
+23015
+23017
+23019
+23021
+23023
+23025
+23027
+23029
+23031
+24001
+24003
+24005
+24009
+24011
+24013
+24015
+24017
+24019
+24021
+24023
+24025
+24027
+24029
+24031
+24033
+24035
+24037
+24039
+24041
+24043
+24045
+24047
+24510
+25001
+25003
+25005
+25007
+25009
+25011
+25013
+25015
+25017
+25019
+25021
+25023
+25025
+25027
+26001
+26003
+26005
+26007
+26009
+26011
+26013
+26015
+26017
+26019
+26021
+26023
+26025
+26027
+26029
+26031
+26033
+26035
+26037
+26039
+26041
+26043
+26045
+26047
+26049
+26051
+26053
+26055
+26057
+26059
+26061
+26063
+26065
+26067
+26069
+26071
+26073
+26075
+26077
+26079
+26081
+26083
+26085
+26087
+26089
+26091
+26093
+26095
+26097
+26099
+26101
+26103
+26105
+26107
+26109
+26111
+26113
+26115
+26117
+26119
+26121
+26123
+26125
+26127
+26129
+26131
+26133
+26135
+26137
+26139
+26141
+26143
+26145
+26147
+26149
+26151
+26153
+26155
+26157
+26159
+26161
+26163
+26165
+27001
+27003
+27005
+27007
+27009
+27011
+27013
+27015
+27017
+27019
+27021
+27023
+27025
+27027
+27029
+27031
+27033
+27035
+27037
+27039
+27041
+27043
+27045
+27047
+27049
+27051
+27053
+27055
+27057
+27059
+27061
+27063
+27065
+27067
+27069
+27071
+27073
+27075
+27077
+27079
+27081
+27083
+27085
+27087
+27089
+27091
+27093
+27095
+27097
+27099
+27101
+27103
+27105
+27107
+27109
+27111
+27113
+27115
+27117
+27119
+27121
+27123
+27125
+27127
+27129
+27131
+27133
+27135
+27137
+27139
+27141
+27143
+27145
+27147
+27149
+27151
+27153
+27155
+27157
+27159
+27161
+27163
+27165
+27167
+27169
+27171
+27173
+28001
+28003
+28005
+28007
+28009
+28011
+28013
+28015
+28017
+28019
+28021
+28023
+28025
+28027
+28029
+28031
+28033
+28035
+28037
+28039
+28041
+28043
+28045
+28047
+28049
+28051
+28053
+28055
+28057
+28059
+28061
+28063
+28065
+28067
+28069
+28071
+28073
+28075
+28077
+28079
+28081
+28083
+28085
+28087
+28089
+28091
+28093
+28095
+28097
+28099
+28101
+28103
+28105
+28107
+28109
+28111
+28113
+28115
+28117
+28119
+28121
+28123
+28125
+28127
+28129
+28131
+28133
+28135
+28137
+28139
+28141
+28143
+28145
+28147
+28149
+28151
+28153
+28155
+28157
+28159
+28161
+28163
+29001
+29003
+29005
+29007
+29009
+29011
+29013
+29015
+29017
+29019
+29021
+29023
+29025
+29027
+29029
+29031
+29033
+29035
+29037
+29039
+29041
+29043
+29045
+29047
+29049
+29051
+29053
+29055
+29057
+29059
+29061
+29063
+29065
+29067
+29069
+29071
+29073
+29075
+29077
+29079
+29081
+29083
+29085
+29087
+29089
+29091
+29093
+29095
+29097
+29099
+29101
+29103
+29105
+29107
+29109
+29111
+29113
+29115
+29117
+29119
+29121
+29123
+29125
+29127
+29129
+29131
+29133
+29135
+29137
+29139
+29141
+29143
+29145
+29147
+29149
+29151
+29153
+29155
+29157
+29159
+29161
+29163
+29165
+29167
+29169
+29171
+29173
+29175
+29177
+29179
+29181
+29183
+29185
+29186
+29187
+29189
+29195
+29197
+29199
+29201
+29203
+29205
+29207
+29209
+29211
+29213
+29215
+29217
+29219
+29221
+29223
+29225
+29227
+29229
+29510
+30001
+30003
+30005
+30007
+30009
+30011
+30013
+30015
+30017
+30019
+30021
+30023
+30025
+30027
+30029
+30031
+30033
+30035
+30037
+30039
+30041
+30043
+30045
+30047
+30049
+30051
+30053
+30055
+30057
+30059
+30061
+30063
+30065
+30067
+30069
+30071
+30073
+30075
+30077
+30079
+30081
+30083
+30085
+30087
+30089
+30091
+30093
+30095
+30097
+30099
+30101
+30103
+30105
+30107
+30109
+30111
+31001
+31003
+31005
+31007
+31009
+31011
+31013
+31015
+31017
+31019
+31021
+31023
+31025
+31027
+31029
+31031
+31033
+31035
+31037
+31039
+31041
+31043
+31045
+31047
+31049
+31051
+31053
+31055
+31057
+31059
+31061
+31063
+31065
+31067
+31069
+31071
+31073
+31075
+31077
+31079
+31081
+31083
+31085
+31087
+31089
+31091
+31093
+31095
+31097
+31099
+31101
+31103
+31105
+31107
+31109
+31111
+31113
+31115
+31117
+31119
+31121
+31123
+31125
+31127
+31129
+31131
+31133
+31135
+31137
+31139
+31141
+31143
+31145
+31147
+31149
+31151
+31153
+31155
+31157
+31159
+31161
+31163
+31165
+31167
+31169
+31171
+31173
+31175
+31177
+31179
+31181
+31183
+31185
+32001
+32003
+32005
+32007
+32009
+32011
+32013
+32015
+32017
+32019
+32021
+32023
+32027
+32029
+32031
+32033
+32510
+33001
+33003
+33005
+33007
+33009
+33011
+33013
+33015
+33017
+33019
+34001
+34003
+34005
+34007
+34009
+34011
+34013
+34015
+34017
+34019
+34021
+34023
+34025
+34027
+34029
+34031
+34033
+34035
+34037
+34039
+34041
+35001
+35003
+35005
+35006
+35007
+35009
+35011
+35013
+35015
+35017
+35019
+35021
+35023
+35025
+35027
+35028
+35029
+35031
+35033
+35035
+35037
+35039
+35041
+35043
+35045
+35047
+35049
+35051
+35053
+35055
+35057
+35059
+35061
+36001
+36003
+36005
+36007
+36009
+36011
+36013
+36015
+36017
+36019
+36021
+36023
+36025
+36027
+36029
+36031
+36033
+36035
+36037
+36039
+36041
+36043
+36045
+36047
+36049
+36051
+36053
+36055
+36057
+36059
+36061
+36063
+36065
+36067
+36069
+36071
+36073
+36075
+36077
+36079
+36081
+36083
+36085
+36087
+36089
+36091
+36093
+36095
+36097
+36099
+36101
+36103
+36105
+36107
+36109
+36111
+36113
+36115
+36117
+36119
+36121
+36123
+37001
+37003
+37005
+37007
+37009
+37011
+37013
+37015
+37017
+37019
+37021
+37023
+37025
+37027
+37029
+37031
+37033
+37035
+37037
+37039
+37041
+37043
+37045
+37047
+37049
+37051
+37053
+37055
+37057
+37059
+37061
+37063
+37065
+37067
+37069
+37071
+37073
+37075
+37077
+37079
+37081
+37083
+37085
+37087
+37089
+37091
+37093
+37095
+37097
+37099
+37101
+37103
+37105
+37107
+37109
+37111
+37113
+37115
+37117
+37119
+37121
+37123
+37125
+37127
+37129
+37131
+37133
+37135
+37137
+37139
+37141
+37143
+37145
+37147
+37149
+37151
+37153
+37155
+37157
+37159
+37161
+37163
+37165
+37167
+37169
+37171
+37173
+37175
+37177
+37179
+37181
+37183
+37185
+37187
+37189
+37191
+37193
+37195
+37197
+37199
+38001
+38003
+38005
+38007
+38009
+38011
+38013
+38015
+38017
+38019
+38021
+38023
+38025
+38027
+38029
+38031
+38033
+38035
+38037
+38039
+38041
+38043
+38045
+38047
+38049
+38051
+38053
+38055
+38057
+38059
+38061
+38063
+38065
+38067
+38069
+38071
+38073
+38075
+38077
+38079
+38081
+38083
+38085
+38087
+38089
+38091
+38093
+38095
+38097
+38099
+38101
+38103
+38105
+39001
+39003
+39005
+39007
+39009
+39011
+39013
+39015
+39017
+39019
+39021
+39023
+39025
+39027
+39029
+39031
+39033
+39035
+39037
+39039
+39041
+39043
+39045
+39047
+39049
+39051
+39053
+39055
+39057
+39059
+39061
+39063
+39065
+39067
+39069
+39071
+39073
+39075
+39077
+39079
+39081
+39083
+39085
+39087
+39089
+39091
+39093
+39095
+39097
+39099
+39101
+39103
+39105
+39107
+39109
+39111
+39113
+39115
+39117
+39119
+39121
+39123
+39125
+39127
+39129
+39131
+39133
+39135
+39137
+39139
+39141
+39143
+39145
+39147
+39149
+39151
+39153
+39155
+39157
+39159
+39161
+39163
+39165
+39167
+39169
+39171
+39173
+39175
+40001
+40003
+40005
+40007
+40009
+40011
+40013
+40015
+40017
+40019
+40021
+40023
+40025
+40027
+40029
+40031
+40033
+40035
+40037
+40039
+40041
+40043
+40045
+40047
+40049
+40051
+40053
+40055
+40057
+40059
+40061
+40063
+40065
+40067
+40069
+40071
+40073
+40075
+40077
+40079
+40081
+40083
+40085
+40087
+40089
+40091
+40093
+40095
+40097
+40099
+40101
+40103
+40105
+40107
+40109
+40111
+40113
+40115
+40117
+40119
+40121
+40123
+40125
+40127
+40129
+40131
+40133
+40135
+40137
+40139
+40141
+40143
+40145
+40147
+40149
+40151
+40153
+41001
+41003
+41005
+41007
+41009
+41011
+41013
+41015
+41017
+41019
+41021
+41023
+41025
+41027
+41029
+41031
+41033
+41035
+41037
+41039
+41041
+41043
+41045
+41047
+41049
+41051
+41053
+41055
+41057
+41059
+41061
+41063
+41065
+41067
+41069
+41071
+42001
+42003
+42005
+42007
+42009
+42011
+42013
+42015
+42017
+42019
+42021
+42023
+42025
+42027
+42029
+42031
+42033
+42035
+42037
+42039
+42041
+42043
+42045
+42047
+42049
+42051
+42053
+42055
+42057
+42059
+42061
+42063
+42065
+42067
+42069
+42071
+42073
+42075
+42077
+42079
+42081
+42083
+42085
+42087
+42089
+42091
+42093
+42095
+42097
+42099
+42101
+42103
+42105
+42107
+42109
+42111
+42113
+42115
+42117
+42119
+42121
+42123
+42125
+42127
+42129
+42131
+42133
+44001
+44003
+44005
+44007
+44009
+45001
+45003
+45005
+45007
+45009
+45011
+45013
+45015
+45017
+45019
+45021
+45023
+45025
+45027
+45029
+45031
+45033
+45035
+45037
+45039
+45041
+45043
+45045
+45047
+45049
+45051
+45053
+45055
+45057
+45059
+45061
+45063
+45065
+45067
+45069
+45071
+45073
+45075
+45077
+45079
+45081
+45083
+45085
+45087
+45089
+45091
+46003
+46005
+46007
+46009
+46011
+46013
+46015
+46017
+46019
+46021
+46023
+46025
+46027
+46029
+46031
+46033
+46035
+46037
+46039
+46041
+46043
+46045
+46047
+46049
+46051
+46053
+46055
+46057
+46059
+46061
+46063
+46065
+46067
+46069
+46071
+46073
+46075
+46077
+46079
+46081
+46083
+46085
+46087
+46089
+46091
+46093
+46095
+46097
+46099
+46101
+46103
+46105
+46107
+46109
+46111
+46113
+46115
+46117
+46119
+46121
+46123
+46125
+46127
+46129
+46135
+46137
+47001
+47003
+47005
+47007
+47009
+47011
+47013
+47015
+47017
+47019
+47021
+47023
+47025
+47027
+47029
+47031
+47033
+47035
+47037
+47039
+47041
+47043
+47045
+47047
+47049
+47051
+47053
+47055
+47057
+47059
+47061
+47063
+47065
+47067
+47069
+47071
+47073
+47075
+47077
+47079
+47081
+47083
+47085
+47087
+47089
+47091
+47093
+47095
+47097
+47099
+47101
+47103
+47105
+47107
+47109
+47111
+47113
+47115
+47117
+47119
+47121
+47123
+47125
+47127
+47129
+47131
+47133
+47135
+47137
+47139
+47141
+47143
+47145
+47147
+47149
+47151
+47153
+47155
+47157
+47159
+47161
+47163
+47165
+47167
+47169
+47171
+47173
+47175
+47177
+47179
+47181
+47183
+47185
+47187
+47189
+48001
+48003
+48005
+48007
+48009
+48011
+48013
+48015
+48017
+48019
+48021
+48023
+48025
+48027
+48029
+48031
+48033
+48035
+48037
+48039
+48041
+48043
+48045
+48047
+48049
+48051
+48053
+48055
+48057
+48059
+48061
+48063
+48065
+48067
+48069
+48071
+48073
+48075
+48077
+48079
+48081
+48083
+48085
+48087
+48089
+48091
+48093
+48095
+48097
+48099
+48101
+48103
+48105
+48107
+48109
+48111
+48113
+48115
+48117
+48119
+48121
+48123
+48125
+48127
+48129
+48131
+48133
+48135
+48137
+48139
+48141
+48143
+48145
+48147
+48149
+48151
+48153
+48155
+48157
+48159
+48161
+48163
+48165
+48167
+48169
+48171
+48173
+48175
+48177
+48179
+48181
+48183
+48185
+48187
+48189
+48191
+48193
+48195
+48197
+48199
+48201
+48203
+48205
+48207
+48209
+48211
+48213
+48215
+48217
+48219
+48221
+48223
+48225
+48227
+48229
+48231
+48233
+48235
+48237
+48239
+48241
+48243
+48245
+48247
+48249
+48251
+48253
+48255
+48257
+48259
+48261
+48263
+48265
+48267
+48269
+48271
+48273
+48275
+48277
+48279
+48281
+48283
+48285
+48287
+48289
+48291
+48293
+48295
+48297
+48299
+48301
+48303
+48305
+48307
+48309
+48311
+48313
+48315
+48317
+48319
+48321
+48323
+48325
+48327
+48329
+48331
+48333
+48335
+48337
+48339
+48341
+48343
+48345
+48347
+48349
+48351
+48353
+48355
+48357
+48359
+48361
+48363
+48365
+48367
+48369
+48371
+48373
+48375
+48377
+48379
+48381
+48383
+48385
+48387
+48389
+48391
+48393
+48395
+48397
+48399
+48401
+48403
+48405
+48407
+48409
+48411
+48413
+48415
+48417
+48419
+48421
+48423
+48425
+48427
+48429
+48431
+48433
+48435
+48437
+48439
+48441
+48443
+48445
+48447
+48449
+48451
+48453
+48455
+48457
+48459
+48461
+48463
+48465
+48467
+48469
+48471
+48473
+48475
+48477
+48479
+48481
+48483
+48485
+48487
+48489
+48491
+48493
+48495
+48497
+48499
+48501
+48503
+48505
+48507
+49001
+49003
+49005
+49007
+49009
+49011
+49013
+49015
+49017
+49019
+49021
+49023
+49025
+49027
+49029
+49031
+49033
+49035
+49037
+49039
+49041
+49043
+49045
+49047
+49049
+49051
+49053
+49055
+49057
+50001
+50003
+50005
+50007
+50009
+50011
+50013
+50015
+50017
+50019
+50021
+50023
+50025
+50027
+51001
+51003
+51005
+51007
+51009
+51011
+51013
+51015
+51017
+51019
+51021
+51023
+51025
+51027
+51029
+51031
+51033
+51035
+51036
+51037
+51041
+51043
+51045
+51047
+51049
+51051
+51053
+51057
+51059
+51061
+51063
+51065
+51067
+51069
+51071
+51073
+51075
+51077
+51079
+51081
+51083
+51085
+51087
+51089
+51091
+51093
+51095
+51097
+51099
+51101
+51103
+51105
+51107
+51109
+51111
+51113
+51115
+51117
+51119
+51121
+51125
+51127
+51131
+51133
+51135
+51137
+51139
+51141
+51143
+51145
+51147
+51149
+51153
+51155
+51157
+51159
+51161
+51163
+51165
+51167
+51169
+51171
+51173
+51175
+51177
+51179
+51181
+51183
+51185
+51187
+51191
+51193
+51195
+51197
+51199
+51510
+51515
+51520
+51530
+51540
+51550
+51570
+51580
+51590
+51595
+51600
+51610
+51620
+51630
+51640
+51650
+51660
+51670
+51678
+51680
+51683
+51685
+51690
+51700
+51710
+51720
+51730
+51735
+51740
+51750
+51760
+51770
+51775
+51790
+51800
+51810
+51820
+51830
+51840
+53001
+53003
+53005
+53007
+53009
+53011
+53013
+53015
+53017
+53019
+53021
+53023
+53025
+53027
+53029
+53031
+53033
+53035
+53037
+53039
+53041
+53043
+53045
+53047
+53049
+53051
+53053
+53055
+53057
+53059
+53061
+53063
+53065
+53067
+53069
+53071
+53073
+53075
+53077
+54001
+54003
+54005
+54007
+54009
+54011
+54013
+54015
+54017
+54019
+54021
+54023
+54025
+54027
+54029
+54031
+54033
+54035
+54037
+54039
+54041
+54043
+54045
+54047
+54049
+54051
+54053
+54055
+54057
+54059
+54061
+54063
+54065
+54067
+54069
+54071
+54073
+54075
+54077
+54079
+54081
+54083
+54085
+54087
+54089
+54091
+54093
+54095
+54097
+54099
+54101
+54103
+54105
+54107
+54109
+55001
+55003
+55005
+55007
+55009
+55011
+55013
+55015
+55017
+55019
+55021
+55023
+55025
+55027
+55029
+55031
+55033
+55035
+55037
+55039
+55041
+55043
+55045
+55047
+55049
+55051
+55053
+55055
+55057
+55059
+55061
+55063
+55065
+55067
+55069
+55071
+55073
+55075
+55077
+55078
+55079
+55081
+55083
+55085
+55087
+55089
+55091
+55093
+55095
+55097
+55099
+55101
+55103
+55105
+55107
+55109
+55111
+55113
+55115
+55117
+55119
+55121
+55123
+55125
+55127
+55129
+55131
+55133
+55135
+55137
+55139
+55141
+56001
+56003
+56005
+56007
+56009
+56011
+56013
+56015
+56017
+56019
+56021
+56023
+56025
+56027
+56029
+56031
+56033
+56035
+56037
+56039
+56041
+56043
+56045
+triangulating node 0
+triangulating node 1
+triangulating node 2
+triangulating node 3
+triangulating node 4
+triangulating node 5
+triangulating node 6
+triangulating node 7
+triangulating node 8
+triangulating node 9
+triangulating node 10
+triangulating node 11
+triangulating node 12
+triangulating node 13
+triangulating node 14
+triangulating node 15
+triangulating node 16
+triangulating node 17
+triangulating node 18
+triangulating node 19
+triangulating node 20
+triangulating node 21
+triangulating node 22
+triangulating node 23
+triangulating node 24
+triangulating node 25
+triangulating node 26
+triangulating node 27
+triangulating node 28
+triangulating node 29
+triangulating node 30
+triangulating node 31
+triangulating node 32
+triangulating node 33
+triangulating node 34
+triangulating node 35
+triangulating node 36
+triangulating node 37
+triangulating node 38
+triangulating node 39
+triangulating node 40
+triangulating node 41
+triangulating node 42
+triangulating node 43
+triangulating node 44
+triangulating node 45
+triangulating node 46
+triangulating node 47
+triangulating node 48
+triangulating node 49
+triangulating node 50
+triangulating node 51
+triangulating node 52
+triangulating node 53
+triangulating node 54
+triangulating node 55
+triangulating node 56
+triangulating node 57
+triangulating node 58
+triangulating node 59
+triangulating node 60
+triangulating node 61
+triangulating node 62
+triangulating node 63
+triangulating node 64
+triangulating node 65
+triangulating node 66
+triangulating node 67
+triangulating node 68
+triangulating node 69
+triangulating node 70
+triangulating node 71
+triangulating node 72
+triangulating node 73
+triangulating node 74
+triangulating node 75
+triangulating node 76
+triangulating node 77
+triangulating node 78
+triangulating node 79
+triangulating node 80
+triangulating node 81
+triangulating node 82
+triangulating node 83
+triangulating node 84
+triangulating node 85
+triangulating node 86
+triangulating node 87
+triangulating node 88
+triangulating node 89
+triangulating node 90
+triangulating node 91
+triangulating node 92
+triangulating node 93
+triangulating node 94
+triangulating node 95
+triangulating node 96
+triangulating node 97
+triangulating node 98
+triangulating node 99
+triangulating node 100
+triangulating node 101
+triangulating node 102
+triangulating node 103
+triangulating node 104
+triangulating node 105
+triangulating node 106
+triangulating node 107
+triangulating node 108
+triangulating node 109
+triangulating node 110
+triangulating node 111
+triangulating node 112
+triangulating node 113
+triangulating node 114
+triangulating node 115
+triangulating node 116
+triangulating node 117
+triangulating node 118
+triangulating node 119
+triangulating node 120
+triangulating node 121
+triangulating node 122
+triangulating node 123
+triangulating node 124
+triangulating node 125
+triangulating node 126
+triangulating node 127
+triangulating node 128
+triangulating node 129
+triangulating node 130
+triangulating node 131
+triangulating node 132
+triangulating node 133
+triangulating node 134
+triangulating node 135
+triangulating node 136
+triangulating node 137
+triangulating node 138
+triangulating node 139
+triangulating node 140
+triangulating node 141
+triangulating node 142
+triangulating node 143
+triangulating node 144
+triangulating node 145
+triangulating node 146
+triangulating node 147
+triangulating node 148
+triangulating node 149
+triangulating node 150
+triangulating node 151
+triangulating node 152
+triangulating node 153
+triangulating node 154
+triangulating node 155
+triangulating node 156
+triangulating node 157
+triangulating node 158
+triangulating node 159
+triangulating node 160
+triangulating node 161
+triangulating node 162
+triangulating node 163
+triangulating node 164
+triangulating node 165
+triangulating node 166
+triangulating node 167
+triangulating node 168
+triangulating node 169
+triangulating node 170
+triangulating node 171
+triangulating node 172
+triangulating node 173
+triangulating node 174
+triangulating node 175
+triangulating node 176
+triangulating node 177
+triangulating node 178
+triangulating node 179
+triangulating node 180
+triangulating node 181
+triangulating node 182
+triangulating node 183
+triangulating node 184
+triangulating node 185
+triangulating node 186
+triangulating node 187
+triangulating node 188
+triangulating node 189
+triangulating node 190
+triangulating node 191
+triangulating node 192
+triangulating node 193
+triangulating node 194
+triangulating node 195
+triangulating node 196
+triangulating node 197
+triangulating node 198
+triangulating node 199
+triangulating node 200
+triangulating node 201
+triangulating node 202
+triangulating node 203
+triangulating node 204
+triangulating node 205
+triangulating node 206
+triangulating node 207
+triangulating node 208
+triangulating node 209
+triangulating node 210
+triangulating node 211
+triangulating node 212
+triangulating node 213
+triangulating node 214
+triangulating node 215
+triangulating node 216
+triangulating node 217
+triangulating node 218
+triangulating node 219
+triangulating node 220
+triangulating node 221
+triangulating node 222
+triangulating node 223
+triangulating node 224
+triangulating node 225
+triangulating node 226
+triangulating node 227
+triangulating node 228
+triangulating node 229
+triangulating node 230
+triangulating node 231
+triangulating node 232
+triangulating node 233
+triangulating node 234
+triangulating node 235
+triangulating node 236
+triangulating node 237
+triangulating node 238
+triangulating node 239
+triangulating node 240
+triangulating node 241
+triangulating node 242
+triangulating node 243
+triangulating node 244
+triangulating node 245
+triangulating node 246
+triangulating node 247
+triangulating node 248
+triangulating node 249
+triangulating node 250
+triangulating node 251
+triangulating node 252
+triangulating node 253
+triangulating node 254
+triangulating node 255
+triangulating node 256
+triangulating node 257
+triangulating node 258
+triangulating node 259
+triangulating node 260
+triangulating node 261
+triangulating node 262
+triangulating node 263
+triangulating node 264
+triangulating node 265
+triangulating node 266
+triangulating node 267
+triangulating node 268
+triangulating node 269
+triangulating node 270
+triangulating node 271
+triangulating node 272
+triangulating node 273
+triangulating node 274
+triangulating node 275
+triangulating node 276
+triangulating node 277
+triangulating node 278
+triangulating node 279
+triangulating node 280
+triangulating node 281
+triangulating node 282
+triangulating node 283
+triangulating node 284
+triangulating node 285
+triangulating node 286
+triangulating node 287
+triangulating node 288
+triangulating node 289
+triangulating node 290
+triangulating node 291
+triangulating node 292
+triangulating node 293
+triangulating node 294
+triangulating node 295
+triangulating node 296
+triangulating node 297
+triangulating node 298
+triangulating node 299
+triangulating node 300
+triangulating node 301
+triangulating node 302
+triangulating node 303
+triangulating node 304
+triangulating node 305
+triangulating node 306
+triangulating node 307
+triangulating node 308
+triangulating node 309
+triangulating node 310
+triangulating node 311
+triangulating node 312
+triangulating node 313
+triangulating node 314
+triangulating node 315
+triangulating node 316
+triangulating node 317
+triangulating node 318
+triangulating node 319
+triangulating node 320
+triangulating node 321
+triangulating node 322
+triangulating node 323
+triangulating node 324
+triangulating node 325
+triangulating node 326
+triangulating node 327
+triangulating node 328
+triangulating node 329
+triangulating node 330
+triangulating node 331
+triangulating node 332
+triangulating node 333
+triangulating node 334
+triangulating node 335
+triangulating node 336
+triangulating node 337
+triangulating node 338
+triangulating node 339
+triangulating node 340
+triangulating node 341
+triangulating node 342
+triangulating node 343
+triangulating node 344
+triangulating node 345
+triangulating node 346
+triangulating node 347
+triangulating node 348
+triangulating node 349
+triangulating node 350
+triangulating node 351
+triangulating node 352
+triangulating node 353
+triangulating node 354
+triangulating node 355
+triangulating node 356
+triangulating node 357
+triangulating node 358
+triangulating node 359
+triangulating node 360
+triangulating node 361
+triangulating node 362
+triangulating node 363
+triangulating node 364
+triangulating node 365
+triangulating node 366
+triangulating node 367
+triangulating node 368
+triangulating node 369
+triangulating node 370
+triangulating node 371
+triangulating node 372
+triangulating node 373
+triangulating node 374
+triangulating node 375
+triangulating node 376
+triangulating node 377
+triangulating node 378
+triangulating node 379
+triangulating node 380
+triangulating node 381
+triangulating node 382
+triangulating node 383
+triangulating node 384
+triangulating node 385
+triangulating node 386
+triangulating node 387
+triangulating node 388
+triangulating node 389
+triangulating node 390
+triangulating node 391
+triangulating node 392
+triangulating node 393
+triangulating node 394
+triangulating node 395
+triangulating node 396
+triangulating node 397
+triangulating node 398
+triangulating node 399
+triangulating node 400
+triangulating node 401
+triangulating node 402
+triangulating node 403
+triangulating node 404
+triangulating node 405
+triangulating node 406
+triangulating node 407
+triangulating node 408
+triangulating node 409
+triangulating node 410
+triangulating node 411
+triangulating node 412
+triangulating node 413
+triangulating node 414
+triangulating node 415
+triangulating node 416
+triangulating node 417
+triangulating node 418
+triangulating node 419
+triangulating node 420
+triangulating node 421
+triangulating node 422
+triangulating node 423
+triangulating node 424
+triangulating node 425
+triangulating node 426
+triangulating node 427
+triangulating node 428
+triangulating node 429
+triangulating node 430
+triangulating node 431
+triangulating node 432
+triangulating node 433
+triangulating node 434
+triangulating node 435
+triangulating node 436
+triangulating node 437
+triangulating node 438
+triangulating node 439
+triangulating node 440
+triangulating node 441
+triangulating node 442
+triangulating node 443
+triangulating node 444
+triangulating node 445
+triangulating node 446
+triangulating node 447
+triangulating node 448
+triangulating node 449
+triangulating node 450
+triangulating node 451
+triangulating node 452
+triangulating node 453
+triangulating node 454
+triangulating node 455
+triangulating node 456
+triangulating node 457
+triangulating node 458
+triangulating node 459
+triangulating node 460
+triangulating node 461
+triangulating node 462
+triangulating node 463
+triangulating node 464
+triangulating node 465
+triangulating node 466
+triangulating node 467
+triangulating node 468
+triangulating node 469
+triangulating node 470
+triangulating node 471
+triangulating node 472
+triangulating node 473
+triangulating node 474
+triangulating node 475
+triangulating node 476
+triangulating node 477
+triangulating node 478
+triangulating node 479
+triangulating node 480
+triangulating node 481
+triangulating node 482
+triangulating node 483
+triangulating node 484
+triangulating node 485
+triangulating node 486
+triangulating node 487
+triangulating node 488
+triangulating node 489
+triangulating node 490
+triangulating node 491
+triangulating node 492
+triangulating node 493
+triangulating node 494
+triangulating node 495
+triangulating node 496
+triangulating node 497
+triangulating node 498
+triangulating node 499
+triangulating node 500
+triangulating node 501
+triangulating node 502
+triangulating node 503
+triangulating node 504
+triangulating node 505
+triangulating node 506
+triangulating node 507
+triangulating node 508
+triangulating node 509
+triangulating node 510
+triangulating node 511
+triangulating node 512
+triangulating node 513
+triangulating node 514
+triangulating node 515
+triangulating node 516
+triangulating node 517
+triangulating node 518
+triangulating node 519
+triangulating node 520
+triangulating node 521
+triangulating node 522
+triangulating node 523
+triangulating node 524
+triangulating node 525
+triangulating node 526
+triangulating node 527
+triangulating node 528
+triangulating node 529
+triangulating node 530
+triangulating node 531
+triangulating node 532
+triangulating node 533
+triangulating node 534
+triangulating node 535
+triangulating node 536
+triangulating node 537
+triangulating node 538
+triangulating node 539
+triangulating node 540
+triangulating node 541
+triangulating node 542
+triangulating node 543
+triangulating node 544
+triangulating node 545
+triangulating node 546
+triangulating node 547
+triangulating node 548
+triangulating node 549
+triangulating node 550
+triangulating node 551
+triangulating node 552
+triangulating node 553
+triangulating node 554
+triangulating node 555
+triangulating node 556
+triangulating node 557
+triangulating node 558
+triangulating node 559
+triangulating node 560
+triangulating node 561
+triangulating node 562
+triangulating node 563
+triangulating node 564
+triangulating node 565
+triangulating node 566
+triangulating node 567
+triangulating node 568
+triangulating node 569
+triangulating node 570
+triangulating node 571
+triangulating node 572
+triangulating node 573
+triangulating node 574
+triangulating node 575
+triangulating node 576
+triangulating node 577
+triangulating node 578
+triangulating node 579
+triangulating node 580
+triangulating node 581
+triangulating node 582
+triangulating node 583
+triangulating node 584
+triangulating node 585
+triangulating node 586
+triangulating node 587
+triangulating node 588
+triangulating node 589
+triangulating node 590
+triangulating node 591
+triangulating node 592
+triangulating node 593
+triangulating node 594
+triangulating node 595
+triangulating node 596
+triangulating node 597
+triangulating node 598
+triangulating node 599
+triangulating node 600
+triangulating node 601
+triangulating node 602
+triangulating node 603
+triangulating node 604
+triangulating node 605
+triangulating node 606
+triangulating node 607
+triangulating node 608
+triangulating node 609
+triangulating node 610
+triangulating node 611
+triangulating node 612
+triangulating node 613
+triangulating node 614
+triangulating node 615
+triangulating node 616
+triangulating node 617
+triangulating node 618
+triangulating node 619
+triangulating node 620
+triangulating node 621
+triangulating node 622
+triangulating node 623
+triangulating node 624
+triangulating node 625
+triangulating node 626
+triangulating node 627
+triangulating node 628
+triangulating node 629
+triangulating node 630
+triangulating node 631
+triangulating node 632
+triangulating node 633
+triangulating node 634
+triangulating node 635
+triangulating node 636
+triangulating node 637
+triangulating node 638
+triangulating node 639
+triangulating node 640
+triangulating node 641
+triangulating node 642
+triangulating node 643
+triangulating node 644
+triangulating node 645
+triangulating node 646
+triangulating node 647
+triangulating node 648
+triangulating node 649
+triangulating node 650
+triangulating node 651
+triangulating node 652
+triangulating node 653
+triangulating node 654
+triangulating node 655
+triangulating node 656
+triangulating node 657
+triangulating node 658
+triangulating node 659
+triangulating node 660
+triangulating node 661
+triangulating node 662
+triangulating node 663
+triangulating node 664
+triangulating node 665
+triangulating node 666
+triangulating node 667
+triangulating node 668
+triangulating node 669
+triangulating node 670
+triangulating node 671
+triangulating node 672
+triangulating node 673
+triangulating node 674
+triangulating node 675
+triangulating node 676
+triangulating node 677
+triangulating node 678
+triangulating node 679
+triangulating node 680
+triangulating node 681
+triangulating node 682
+triangulating node 683
+triangulating node 684
+triangulating node 685
+triangulating node 686
+triangulating node 687
+triangulating node 688
+triangulating node 689
+triangulating node 690
+triangulating node 691
+triangulating node 692
+triangulating node 693
+triangulating node 694
+triangulating node 695
+triangulating node 696
+triangulating node 697
+triangulating node 698
+triangulating node 699
+triangulating node 700
+triangulating node 701
+triangulating node 702
+triangulating node 703
+triangulating node 704
+triangulating node 705
+triangulating node 706
+triangulating node 707
+triangulating node 708
+triangulating node 709
+triangulating node 710
+triangulating node 711
+triangulating node 712
+triangulating node 713
+triangulating node 714
+triangulating node 715
+triangulating node 716
+triangulating node 717
+triangulating node 718
+triangulating node 719
+triangulating node 720
+triangulating node 721
+triangulating node 722
+triangulating node 723
+triangulating node 724
+triangulating node 725
+triangulating node 726
+triangulating node 727
+triangulating node 728
+triangulating node 729
+triangulating node 730
+triangulating node 731
+triangulating node 732
+triangulating node 733
+triangulating node 734
+triangulating node 735
+triangulating node 736
+triangulating node 737
+triangulating node 738
+triangulating node 739
+triangulating node 740
+triangulating node 741
+triangulating node 742
+triangulating node 743
+triangulating node 744
+triangulating node 745
+triangulating node 746
+triangulating node 747
+triangulating node 748
+triangulating node 749
+triangulating node 750
+triangulating node 751
+triangulating node 752
+triangulating node 753
+triangulating node 754
+triangulating node 755
+triangulating node 756
+triangulating node 757
+triangulating node 758
+triangulating node 759
+triangulating node 760
+triangulating node 761
+triangulating node 762
+triangulating node 763
+triangulating node 764
+triangulating node 765
+triangulating node 766
+triangulating node 767
+triangulating node 768
+triangulating node 769
+triangulating node 770
+triangulating node 771
+triangulating node 772
+triangulating node 773
+triangulating node 774
+triangulating node 775
+triangulating node 776
+triangulating node 777
+triangulating node 778
+triangulating node 779
+triangulating node 780
+triangulating node 781
+triangulating node 782
+triangulating node 783
+triangulating node 784
+triangulating node 785
+triangulating node 786
+triangulating node 787
+triangulating node 788
+triangulating node 789
+triangulating node 790
+triangulating node 791
+triangulating node 792
+triangulating node 793
+triangulating node 794
+triangulating node 795
+triangulating node 796
+triangulating node 797
+triangulating node 798
+triangulating node 799
+triangulating node 800
+triangulating node 801
+triangulating node 802
+triangulating node 803
+triangulating node 804
+triangulating node 805
+triangulating node 806
+triangulating node 807
+triangulating node 808
+triangulating node 809
+triangulating node 810
+triangulating node 811
+triangulating node 812
+triangulating node 813
+triangulating node 814
+triangulating node 815
+triangulating node 816
+triangulating node 817
+triangulating node 818
+triangulating node 819
+triangulating node 820
+triangulating node 821
+triangulating node 822
+triangulating node 823
+triangulating node 824
+triangulating node 825
+triangulating node 826
+triangulating node 827
+triangulating node 828
+triangulating node 829
+triangulating node 830
+triangulating node 831
+triangulating node 832
+triangulating node 833
+triangulating node 834
+triangulating node 835
+triangulating node 836
+triangulating node 837
+triangulating node 838
+triangulating node 839
+triangulating node 840
+triangulating node 841
+triangulating node 842
+triangulating node 843
+triangulating node 844
+triangulating node 845
+triangulating node 846
+triangulating node 847
+triangulating node 848
+triangulating node 849
+triangulating node 850
+triangulating node 851
+triangulating node 852
+triangulating node 853
+triangulating node 854
+triangulating node 855
+triangulating node 856
+triangulating node 857
+triangulating node 858
+triangulating node 859
+triangulating node 860
+triangulating node 861
+triangulating node 862
+triangulating node 863
+triangulating node 864
+triangulating node 865
+triangulating node 866
+triangulating node 867
+triangulating node 868
+triangulating node 869
+triangulating node 870
+triangulating node 871
+triangulating node 872
+triangulating node 873
+triangulating node 874
+triangulating node 875
+triangulating node 876
+triangulating node 877
+triangulating node 878
+triangulating node 879
+triangulating node 880
+triangulating node 881
+triangulating node 882
+triangulating node 883
+triangulating node 884
+triangulating node 885
+triangulating node 886
+triangulating node 887
+triangulating node 888
+triangulating node 889
+triangulating node 890
+triangulating node 891
+triangulating node 892
+triangulating node 893
+triangulating node 894
+triangulating node 895
+triangulating node 896
+triangulating node 897
+triangulating node 898
+triangulating node 899
+triangulating node 900
+triangulating node 901
+triangulating node 902
+triangulating node 903
+triangulating node 904
+triangulating node 905
+triangulating node 906
+triangulating node 907
+triangulating node 908
+triangulating node 909
+triangulating node 910
+triangulating node 911
+triangulating node 912
+triangulating node 913
+triangulating node 914
+triangulating node 915
+triangulating node 916
+triangulating node 917
+triangulating node 918
+triangulating node 919
+triangulating node 920
+triangulating node 921
+triangulating node 922
+triangulating node 923
+triangulating node 924
+triangulating node 925
+triangulating node 926
+triangulating node 927
+triangulating node 928
+triangulating node 929
+triangulating node 930
+triangulating node 931
+triangulating node 932
+triangulating node 933
+triangulating node 934
+triangulating node 935
+triangulating node 936
+triangulating node 937
+triangulating node 938
+triangulating node 939
+triangulating node 940
+triangulating node 941
+triangulating node 942
+triangulating node 943
+triangulating node 944
+triangulating node 945
+triangulating node 946
+triangulating node 947
+triangulating node 948
+triangulating node 949
+triangulating node 950
+triangulating node 951
+triangulating node 952
+triangulating node 953
+triangulating node 954
+triangulating node 955
+triangulating node 956
+triangulating node 957
+triangulating node 958
+triangulating node 959
+triangulating node 960
+triangulating node 961
+triangulating node 962
+triangulating node 963
+triangulating node 964
+triangulating node 965
+triangulating node 966
+triangulating node 967
+triangulating node 968
+triangulating node 969
+triangulating node 970
+triangulating node 971
+triangulating node 972
+triangulating node 973
+triangulating node 974
+triangulating node 975
+triangulating node 976
+triangulating node 977
+triangulating node 978
+triangulating node 979
+triangulating node 980
+triangulating node 981
+triangulating node 982
+triangulating node 983
+triangulating node 984
+triangulating node 985
+triangulating node 986
+triangulating node 987
+triangulating node 988
+triangulating node 989
+triangulating node 990
+triangulating node 991
+triangulating node 992
+triangulating node 993
+triangulating node 994
+triangulating node 995
+triangulating node 996
+triangulating node 997
+triangulating node 998
+triangulating node 999
+triangulating node 1000
+triangulating node 1001
+triangulating node 1002
+triangulating node 1003
+triangulating node 1004
+triangulating node 1005
+triangulating node 1006
+triangulating node 1007
+triangulating node 1008
+triangulating node 1009
+triangulating node 1010
+triangulating node 1011
+triangulating node 1012
+triangulating node 1013
+triangulating node 1014
+triangulating node 1015
+triangulating node 1016
+triangulating node 1017
+triangulating node 1018
+triangulating node 1019
+triangulating node 1020
+triangulating node 1021
+triangulating node 1022
+triangulating node 1023
+triangulating node 1024
+triangulating node 1025
+triangulating node 1026
+triangulating node 1027
+triangulating node 1028
+triangulating node 1029
+triangulating node 1030
+triangulating node 1031
+triangulating node 1032
+triangulating node 1033
+triangulating node 1034
+triangulating node 1035
+triangulating node 1036
+triangulating node 1037
+triangulating node 1038
+triangulating node 1039
+triangulating node 1040
+triangulating node 1041
+triangulating node 1042
+triangulating node 1043
+triangulating node 1044
+triangulating node 1045
+triangulating node 1046
+triangulating node 1047
+triangulating node 1048
+triangulating node 1049
+triangulating node 1050
+triangulating node 1051
+triangulating node 1052
+triangulating node 1053
+triangulating node 1054
+triangulating node 1055
+triangulating node 1056
+triangulating node 1057
+triangulating node 1058
+triangulating node 1059
+triangulating node 1060
+triangulating node 1061
+triangulating node 1062
+triangulating node 1063
+triangulating node 1064
+triangulating node 1065
+triangulating node 1066
+triangulating node 1067
+triangulating node 1068
+triangulating node 1069
+triangulating node 1070
+triangulating node 1071
+triangulating node 1072
+triangulating node 1073
+triangulating node 1074
+triangulating node 1075
+triangulating node 1076
+triangulating node 1077
+triangulating node 1078
+triangulating node 1079
+triangulating node 1080
+triangulating node 1081
+triangulating node 1082
+triangulating node 1083
+triangulating node 1084
+triangulating node 1085
+triangulating node 1086
+triangulating node 1087
+triangulating node 1088
+triangulating node 1089
+triangulating node 1090
+triangulating node 1091
+triangulating node 1092
+triangulating node 1093
+triangulating node 1094
+triangulating node 1095
+triangulating node 1096
+triangulating node 1097
+triangulating node 1098
+triangulating node 1099
+triangulating node 1100
+triangulating node 1101
+triangulating node 1102
+triangulating node 1103
+triangulating node 1104
+triangulating node 1105
+triangulating node 1106
+triangulating node 1107
+triangulating node 1108
+triangulating node 1109
+triangulating node 1110
+triangulating node 1111
+triangulating node 1112
+triangulating node 1113
+triangulating node 1114
+triangulating node 1115
+triangulating node 1116
+triangulating node 1117
+triangulating node 1118
+triangulating node 1119
+triangulating node 1120
+triangulating node 1121
+triangulating node 1122
+triangulating node 1123
+triangulating node 1124
+triangulating node 1125
+triangulating node 1126
+triangulating node 1127
+triangulating node 1128
+triangulating node 1129
+triangulating node 1130
+triangulating node 1131
+triangulating node 1132
+triangulating node 1133
+triangulating node 1134
+triangulating node 1135
+triangulating node 1136
+triangulating node 1137
+triangulating node 1138
+triangulating node 1139
+triangulating node 1140
+triangulating node 1141
+triangulating node 1142
+triangulating node 1143
+triangulating node 1144
+triangulating node 1145
+triangulating node 1146
+triangulating node 1147
+triangulating node 1148
+triangulating node 1149
+triangulating node 1150
+triangulating node 1151
+triangulating node 1152
+triangulating node 1153
+triangulating node 1154
+triangulating node 1155
+triangulating node 1156
+triangulating node 1157
+triangulating node 1158
+triangulating node 1159
+triangulating node 1160
+triangulating node 1161
+triangulating node 1162
+triangulating node 1163
+triangulating node 1164
+triangulating node 1165
+triangulating node 1166
+triangulating node 1167
+triangulating node 1168
+triangulating node 1169
+triangulating node 1170
+triangulating node 1171
+triangulating node 1172
+triangulating node 1173
+triangulating node 1174
+triangulating node 1175
+triangulating node 1176
+triangulating node 1177
+triangulating node 1178
+triangulating node 1179
+triangulating node 1180
+triangulating node 1181
+triangulating node 1182
+triangulating node 1183
+triangulating node 1184
+triangulating node 1185
+triangulating node 1186
+triangulating node 1187
+triangulating node 1188
+triangulating node 1189
+triangulating node 1190
+triangulating node 1191
+triangulating node 1192
+triangulating node 1193
+triangulating node 1194
+triangulating node 1195
+triangulating node 1196
+triangulating node 1197
+triangulating node 1198
+triangulating node 1199
+triangulating node 1200
+triangulating node 1201
+triangulating node 1202
+triangulating node 1203
+triangulating node 1204
+triangulating node 1205
+triangulating node 1206
+triangulating node 1207
+triangulating node 1208
+triangulating node 1209
+triangulating node 1210
+triangulating node 1211
+triangulating node 1212
+triangulating node 1213
+triangulating node 1214
+triangulating node 1215
+triangulating node 1216
+triangulating node 1217
+triangulating node 1218
+triangulating node 1219
+triangulating node 1220
+triangulating node 1221
+triangulating node 1222
+triangulating node 1223
+triangulating node 1224
+triangulating node 1225
+triangulating node 1226
+triangulating node 1227
+triangulating node 1228
+triangulating node 1229
+triangulating node 1230
+triangulating node 1231
+triangulating node 1232
+triangulating node 1233
+triangulating node 1234
+triangulating node 1235
+triangulating node 1236
+triangulating node 1237
+triangulating node 1238
+triangulating node 1239
+triangulating node 1240
+triangulating node 1241
+triangulating node 1242
+triangulating node 1243
+triangulating node 1244
+triangulating node 1245
+triangulating node 1246
+triangulating node 1247
+triangulating node 1248
+triangulating node 1249
+triangulating node 1250
+triangulating node 1251
+triangulating node 1252
+triangulating node 1253
+triangulating node 1254
+triangulating node 1255
+triangulating node 1256
+triangulating node 1257
+triangulating node 1258
+triangulating node 1259
+triangulating node 1260
+triangulating node 1261
+triangulating node 1262
+triangulating node 1263
+triangulating node 1264
+triangulating node 1265
+triangulating node 1266
+triangulating node 1267
+triangulating node 1268
+triangulating node 1269
+triangulating node 1270
+triangulating node 1271
+triangulating node 1272
+triangulating node 1273
+triangulating node 1274
+triangulating node 1275
+triangulating node 1276
+triangulating node 1277
+triangulating node 1278
+triangulating node 1279
+triangulating node 1280
+triangulating node 1281
+triangulating node 1282
+triangulating node 1283
+triangulating node 1284
+triangulating node 1285
+triangulating node 1286
+triangulating node 1287
+triangulating node 1288
+triangulating node 1289
+triangulating node 1290
+triangulating node 1291
+triangulating node 1292
+triangulating node 1293
+triangulating node 1294
+triangulating node 1295
+triangulating node 1296
+triangulating node 1297
+triangulating node 1298
+triangulating node 1299
+triangulating node 1300
+triangulating node 1301
+triangulating node 1302
+triangulating node 1303
+triangulating node 1304
+triangulating node 1305
+triangulating node 1306
+triangulating node 1307
+triangulating node 1308
+triangulating node 1309
+triangulating node 1310
+triangulating node 1311
+triangulating node 1312
+triangulating node 1313
+triangulating node 1314
+triangulating node 1315
+triangulating node 1316
+triangulating node 1317
+triangulating node 1318
+triangulating node 1319
+triangulating node 1320
+triangulating node 1321
+triangulating node 1322
+triangulating node 1323
+triangulating node 1324
+triangulating node 1325
+triangulating node 1326
+triangulating node 1327
+triangulating node 1328
+triangulating node 1329
+triangulating node 1330
+triangulating node 1331
+triangulating node 1332
+triangulating node 1333
+triangulating node 1334
+triangulating node 1335
+triangulating node 1336
+triangulating node 1337
+triangulating node 1338
+triangulating node 1339
+triangulating node 1340
+triangulating node 1341
+triangulating node 1342
+triangulating node 1343
+triangulating node 1344
+triangulating node 1345
+triangulating node 1346
+triangulating node 1347
+triangulating node 1348
+triangulating node 1349
+triangulating node 1350
+triangulating node 1351
+triangulating node 1352
+triangulating node 1353
+triangulating node 1354
+triangulating node 1355
+triangulating node 1356
+triangulating node 1357
+triangulating node 1358
+triangulating node 1359
+triangulating node 1360
+triangulating node 1361
+triangulating node 1362
+triangulating node 1363
+triangulating node 1364
+triangulating node 1365
+triangulating node 1366
+triangulating node 1367
+triangulating node 1368
+triangulating node 1369
+triangulating node 1370
+triangulating node 1371
+triangulating node 1372
+triangulating node 1373
+triangulating node 1374
+triangulating node 1375
+triangulating node 1376
+triangulating node 1377
+triangulating node 1378
+triangulating node 1379
+triangulating node 1380
+triangulating node 1381
+triangulating node 1382
+triangulating node 1383
+triangulating node 1384
+triangulating node 1385
+triangulating node 1386
+triangulating node 1387
+triangulating node 1388
+triangulating node 1389
+triangulating node 1390
+triangulating node 1391
+triangulating node 1392
+triangulating node 1393
+triangulating node 1394
+triangulating node 1395
+triangulating node 1396
+triangulating node 1397
+triangulating node 1398
+triangulating node 1399
+triangulating node 1400
+triangulating node 1401
+triangulating node 1402
+triangulating node 1403
+triangulating node 1404
+triangulating node 1405
+triangulating node 1406
+triangulating node 1407
+triangulating node 1408
+triangulating node 1409
+triangulating node 1410
+triangulating node 1411
+triangulating node 1412
+triangulating node 1413
+triangulating node 1414
+triangulating node 1415
+triangulating node 1416
+triangulating node 1417
+triangulating node 1418
+triangulating node 1419
+triangulating node 1420
+triangulating node 1421
+triangulating node 1422
+triangulating node 1423
+triangulating node 1424
+triangulating node 1425
+triangulating node 1426
+triangulating node 1427
+triangulating node 1428
+triangulating node 1429
+triangulating node 1430
+triangulating node 1431
+triangulating node 1432
+triangulating node 1433
+triangulating node 1434
+triangulating node 1435
+triangulating node 1436
+triangulating node 1437
+triangulating node 1438
+triangulating node 1439
+triangulating node 1440
+triangulating node 1441
+triangulating node 1442
+triangulating node 1443
+triangulating node 1444
+triangulating node 1445
+triangulating node 1446
+triangulating node 1447
+triangulating node 1448
+triangulating node 1449
+triangulating node 1450
+triangulating node 1451
+triangulating node 1452
+triangulating node 1453
+triangulating node 1454
+triangulating node 1455
+triangulating node 1456
+triangulating node 1457
+triangulating node 1458
+triangulating node 1459
+triangulating node 1460
+triangulating node 1461
+triangulating node 1462
+triangulating node 1463
+triangulating node 1464
+triangulating node 1465
+triangulating node 1466
+triangulating node 1467
+triangulating node 1468
+triangulating node 1469
+triangulating node 1470
+triangulating node 1471
+triangulating node 1472
+triangulating node 1473
+triangulating node 1474
+triangulating node 1475
+triangulating node 1476
+triangulating node 1477
+triangulating node 1478
+triangulating node 1479
+triangulating node 1480
+triangulating node 1481
+triangulating node 1482
+triangulating node 1483
+triangulating node 1484
+triangulating node 1485
+triangulating node 1486
+triangulating node 1487
+triangulating node 1488
+triangulating node 1489
+triangulating node 1490
+triangulating node 1491
+triangulating node 1492
+triangulating node 1493
+triangulating node 1494
+triangulating node 1495
+triangulating node 1496
+triangulating node 1497
+triangulating node 1498
+triangulating node 1499
+triangulating node 1500
+triangulating node 1501
+triangulating node 1502
+triangulating node 1503
+triangulating node 1504
+triangulating node 1505
+triangulating node 1506
+triangulating node 1507
+triangulating node 1508
+triangulating node 1509
+triangulating node 1510
+triangulating node 1511
+triangulating node 1512
+triangulating node 1513
+triangulating node 1514
+triangulating node 1515
+triangulating node 1516
+triangulating node 1517
+triangulating node 1518
+triangulating node 1519
+triangulating node 1520
+triangulating node 1521
+triangulating node 1522
+triangulating node 1523
+triangulating node 1524
+triangulating node 1525
+triangulating node 1526
+triangulating node 1527
+triangulating node 1528
+triangulating node 1529
+triangulating node 1530
+triangulating node 1531
+triangulating node 1532
+triangulating node 1533
+triangulating node 1534
+triangulating node 1535
+triangulating node 1536
+triangulating node 1537
+triangulating node 1538
+triangulating node 1539
+triangulating node 1540
+triangulating node 1541
+triangulating node 1542
+triangulating node 1543
+triangulating node 1544
+triangulating node 1545
+triangulating node 1546
+triangulating node 1547
+triangulating node 1548
+triangulating node 1549
+triangulating node 1550
+triangulating node 1551
+triangulating node 1552
+triangulating node 1553
+triangulating node 1554
+triangulating node 1555
+triangulating node 1556
+triangulating node 1557
+triangulating node 1558
+triangulating node 1559
+triangulating node 1560
+triangulating node 1561
+triangulating node 1562
+triangulating node 1563
+triangulating node 1564
+triangulating node 1565
+triangulating node 1566
+triangulating node 1567
+triangulating node 1568
+triangulating node 1569
+triangulating node 1570
+triangulating node 1571
+triangulating node 1572
+triangulating node 1573
+triangulating node 1574
+triangulating node 1575
+triangulating node 1576
+triangulating node 1577
+triangulating node 1578
+triangulating node 1579
+triangulating node 1580
+triangulating node 1581
+triangulating node 1582
+triangulating node 1583
+triangulating node 1584
+triangulating node 1585
+triangulating node 1586
+triangulating node 1587
+triangulating node 1588
+triangulating node 1589
+triangulating node 1590
+triangulating node 1591
+triangulating node 1592
+triangulating node 1593
+triangulating node 1594
+triangulating node 1595
+triangulating node 1596
+triangulating node 1597
+triangulating node 1598
+triangulating node 1599
+triangulating node 1600
+triangulating node 1601
+triangulating node 1602
+triangulating node 1603
+triangulating node 1604
+triangulating node 1605
+triangulating node 1606
+triangulating node 1607
+triangulating node 1608
+triangulating node 1609
+triangulating node 1610
+triangulating node 1611
+triangulating node 1612
+triangulating node 1613
+triangulating node 1614
+triangulating node 1615
+triangulating node 1616
+triangulating node 1617
+triangulating node 1618
+triangulating node 1619
+triangulating node 1620
+triangulating node 1621
+triangulating node 1622
+triangulating node 1623
+triangulating node 1624
+triangulating node 1625
+triangulating node 1626
+triangulating node 1627
+triangulating node 1628
+triangulating node 1629
+triangulating node 1630
+triangulating node 1631
+triangulating node 1632
+triangulating node 1633
+triangulating node 1634
+triangulating node 1635
+triangulating node 1636
+triangulating node 1637
+triangulating node 1638
+triangulating node 1639
+triangulating node 1640
+triangulating node 1641
+triangulating node 1642
+triangulating node 1643
+triangulating node 1644
+triangulating node 1645
+triangulating node 1646
+triangulating node 1647
+triangulating node 1648
+triangulating node 1649
+triangulating node 1650
+triangulating node 1651
+triangulating node 1652
+triangulating node 1653
+triangulating node 1654
+triangulating node 1655
+triangulating node 1656
+triangulating node 1657
+triangulating node 1658
+triangulating node 1659
+triangulating node 1660
+triangulating node 1661
+triangulating node 1662
+triangulating node 1663
+triangulating node 1664
+triangulating node 1665
+triangulating node 1666
+triangulating node 1667
+triangulating node 1668
+triangulating node 1669
+triangulating node 1670
+triangulating node 1671
+triangulating node 1672
+triangulating node 1673
+triangulating node 1674
+triangulating node 1675
+triangulating node 1676
+triangulating node 1677
+triangulating node 1678
+triangulating node 1679
+triangulating node 1680
+triangulating node 1681
+triangulating node 1682
+triangulating node 1683
+triangulating node 1684
+triangulating node 1685
+triangulating node 1686
+triangulating node 1687
+triangulating node 1688
+triangulating node 1689
+triangulating node 1690
+triangulating node 1691
+triangulating node 1692
+triangulating node 1693
+triangulating node 1694
+triangulating node 1695
+triangulating node 1696
+triangulating node 1697
+triangulating node 1698
+triangulating node 1699
+triangulating node 1700
+triangulating node 1701
+triangulating node 1702
+triangulating node 1703
+triangulating node 1704
+triangulating node 1705
+triangulating node 1706
+triangulating node 1707
+triangulating node 1708
+triangulating node 1709
+triangulating node 1710
+triangulating node 1711
+triangulating node 1712
+triangulating node 1713
+triangulating node 1714
+triangulating node 1715
+triangulating node 1716
+triangulating node 1717
+triangulating node 1718
+triangulating node 1719
+triangulating node 1720
+triangulating node 1721
+triangulating node 1722
+triangulating node 1723
+triangulating node 1724
+triangulating node 1725
+triangulating node 1726
+triangulating node 1727
+triangulating node 1728
+triangulating node 1729
+triangulating node 1730
+triangulating node 1731
+triangulating node 1732
+triangulating node 1733
+triangulating node 1734
+triangulating node 1735
+triangulating node 1736
+triangulating node 1737
+triangulating node 1738
+triangulating node 1739
+triangulating node 1740
+triangulating node 1741
+triangulating node 1742
+triangulating node 1743
+triangulating node 1744
+triangulating node 1745
+triangulating node 1746
+triangulating node 1747
+triangulating node 1748
+triangulating node 1749
+triangulating node 1750
+triangulating node 1751
+triangulating node 1752
+triangulating node 1753
+triangulating node 1754
+triangulating node 1755
+triangulating node 1756
+triangulating node 1757
+triangulating node 1758
+triangulating node 1759
+triangulating node 1760
+triangulating node 1761
+triangulating node 1762
+triangulating node 1763
+triangulating node 1764
+triangulating node 1765
+triangulating node 1766
+triangulating node 1767
+triangulating node 1768
+triangulating node 1769
+triangulating node 1770
+triangulating node 1771
+triangulating node 1772
+triangulating node 1773
+triangulating node 1774
+triangulating node 1775
+triangulating node 1776
+triangulating node 1777
+triangulating node 1778
+triangulating node 1779
+triangulating node 1780
+triangulating node 1781
+triangulating node 1782
+triangulating node 1783
+triangulating node 1784
+triangulating node 1785
+triangulating node 1786
+triangulating node 1787
+triangulating node 1788
+triangulating node 1789
+triangulating node 1790
+triangulating node 1791
+triangulating node 1792
+triangulating node 1793
+triangulating node 1794
+triangulating node 1795
+triangulating node 1796
+triangulating node 1797
+triangulating node 1798
+triangulating node 1799
+triangulating node 1800
+triangulating node 1801
+triangulating node 1802
+triangulating node 1803
+triangulating node 1804
+triangulating node 1805
+triangulating node 1806
+triangulating node 1807
+triangulating node 1808
+triangulating node 1809
+triangulating node 1810
+triangulating node 1811
+triangulating node 1812
+triangulating node 1813
+triangulating node 1814
+triangulating node 1815
+triangulating node 1816
+triangulating node 1817
+triangulating node 1818
+triangulating node 1819
+triangulating node 1820
+triangulating node 1821
+triangulating node 1822
+triangulating node 1823
+triangulating node 1824
+triangulating node 1825
+triangulating node 1826
+triangulating node 1827
+triangulating node 1828
+triangulating node 1829
+triangulating node 1830
+triangulating node 1831
+triangulating node 1832
+triangulating node 1833
+triangulating node 1834
+triangulating node 1835
+triangulating node 1836
+triangulating node 1837
+triangulating node 1838
+triangulating node 1839
+triangulating node 1840
+triangulating node 1841
+triangulating node 1842
+triangulating node 1843
+triangulating node 1844
+triangulating node 1845
+triangulating node 1846
+triangulating node 1847
+triangulating node 1848
+triangulating node 1849
+triangulating node 1850
+triangulating node 1851
+triangulating node 1852
+triangulating node 1853
+triangulating node 1854
+triangulating node 1855
+triangulating node 1856
+triangulating node 1857
+triangulating node 1858
+triangulating node 1859
+triangulating node 1860
+triangulating node 1861
+triangulating node 1862
+triangulating node 1863
+triangulating node 1864
+triangulating node 1865
+triangulating node 1866
+triangulating node 1867
+triangulating node 1868
+triangulating node 1869
+triangulating node 1870
+triangulating node 1871
+triangulating node 1872
+triangulating node 1873
+triangulating node 1874
+triangulating node 1875
+triangulating node 1876
+triangulating node 1877
+triangulating node 1878
+triangulating node 1879
+triangulating node 1880
+triangulating node 1881
+triangulating node 1882
+triangulating node 1883
+triangulating node 1884
+triangulating node 1885
+triangulating node 1886
+triangulating node 1887
+triangulating node 1888
+triangulating node 1889
+triangulating node 1890
+triangulating node 1891
+triangulating node 1892
+triangulating node 1893
+triangulating node 1894
+triangulating node 1895
+triangulating node 1896
+triangulating node 1897
+triangulating node 1898
+triangulating node 1899
+triangulating node 1900
+triangulating node 1901
+triangulating node 1902
+triangulating node 1903
+triangulating node 1904
+triangulating node 1905
+triangulating node 1906
+triangulating node 1907
+triangulating node 1908
+triangulating node 1909
+triangulating node 1910
+triangulating node 1911
+triangulating node 1912
+triangulating node 1913
+triangulating node 1914
+triangulating node 1915
+triangulating node 1916
+triangulating node 1917
+triangulating node 1918
+triangulating node 1919
+triangulating node 1920
+triangulating node 1921
+triangulating node 1922
+triangulating node 1923
+triangulating node 1924
+triangulating node 1925
+triangulating node 1926
+triangulating node 1927
+triangulating node 1928
+triangulating node 1929
+triangulating node 1930
+triangulating node 1931
+triangulating node 1932
+triangulating node 1933
+triangulating node 1934
+triangulating node 1935
+triangulating node 1936
+triangulating node 1937
+triangulating node 1938
+triangulating node 1939
+triangulating node 1940
+triangulating node 1941
+triangulating node 1942
+triangulating node 1943
+triangulating node 1944
+triangulating node 1945
+triangulating node 1946
+triangulating node 1947
+triangulating node 1948
+triangulating node 1949
+triangulating node 1950
+triangulating node 1951
+triangulating node 1952
+triangulating node 1953
+triangulating node 1954
+triangulating node 1955
+triangulating node 1956
+triangulating node 1957
+triangulating node 1958
+triangulating node 1959
+triangulating node 1960
+triangulating node 1961
+triangulating node 1962
+triangulating node 1963
+triangulating node 1964
+triangulating node 1965
+triangulating node 1966
+triangulating node 1967
+triangulating node 1968
+triangulating node 1969
+triangulating node 1970
+triangulating node 1971
+triangulating node 1972
+triangulating node 1973
+triangulating node 1974
+triangulating node 1975
+triangulating node 1976
+triangulating node 1977
+triangulating node 1978
+triangulating node 1979
+triangulating node 1980
+triangulating node 1981
+triangulating node 1982
+triangulating node 1983
+triangulating node 1984
+triangulating node 1985
+triangulating node 1986
+triangulating node 1987
+triangulating node 1988
+triangulating node 1989
+triangulating node 1990
+triangulating node 1991
+triangulating node 1992
+triangulating node 1993
+triangulating node 1994
+triangulating node 1995
+triangulating node 1996
+triangulating node 1997
+triangulating node 1998
+triangulating node 1999
+triangulating node 2000
+triangulating node 2001
+triangulating node 2002
+triangulating node 2003
+triangulating node 2004
+triangulating node 2005
+triangulating node 2006
+triangulating node 2007
+triangulating node 2008
+triangulating node 2009
+triangulating node 2010
+triangulating node 2011
+triangulating node 2012
+triangulating node 2013
+triangulating node 2014
+triangulating node 2015
+triangulating node 2016
+triangulating node 2017
+triangulating node 2018
+triangulating node 2019
+triangulating node 2020
+triangulating node 2021
+triangulating node 2022
+triangulating node 2023
+triangulating node 2024
+triangulating node 2025
+triangulating node 2026
+triangulating node 2027
+triangulating node 2028
+triangulating node 2029
+triangulating node 2030
+triangulating node 2031
+triangulating node 2032
+triangulating node 2033
+triangulating node 2034
+triangulating node 2035
+triangulating node 2036
+triangulating node 2037
+triangulating node 2038
+triangulating node 2039
+triangulating node 2040
+triangulating node 2041
+triangulating node 2042
+triangulating node 2043
+triangulating node 2044
+triangulating node 2045
+triangulating node 2046
+triangulating node 2047
+triangulating node 2048
+triangulating node 2049
+triangulating node 2050
+triangulating node 2051
+triangulating node 2052
+triangulating node 2053
+triangulating node 2054
+triangulating node 2055
+triangulating node 2056
+triangulating node 2057
+triangulating node 2058
+triangulating node 2059
+triangulating node 2060
+triangulating node 2061
+triangulating node 2062
+triangulating node 2063
+triangulating node 2064
+triangulating node 2065
+triangulating node 2066
+triangulating node 2067
+triangulating node 2068
+triangulating node 2069
+triangulating node 2070
+triangulating node 2071
+triangulating node 2072
+triangulating node 2073
+triangulating node 2074
+triangulating node 2075
+triangulating node 2076
+triangulating node 2077
+triangulating node 2078
+triangulating node 2079
+triangulating node 2080
+triangulating node 2081
+triangulating node 2082
+triangulating node 2083
+triangulating node 2084
+triangulating node 2085
+triangulating node 2086
+triangulating node 2087
+triangulating node 2088
+triangulating node 2089
+triangulating node 2090
+triangulating node 2091
+triangulating node 2092
+triangulating node 2093
+triangulating node 2094
+triangulating node 2095
+triangulating node 2096
+triangulating node 2097
+triangulating node 2098
+triangulating node 2099
+triangulating node 2100
+triangulating node 2101
+triangulating node 2102
+triangulating node 2103
+triangulating node 2104
+triangulating node 2105
+triangulating node 2106
+triangulating node 2107
+triangulating node 2108
+triangulating node 2109
+triangulating node 2110
+triangulating node 2111
+triangulating node 2112
+triangulating node 2113
+triangulating node 2114
+triangulating node 2115
+triangulating node 2116
+triangulating node 2117
+triangulating node 2118
+triangulating node 2119
+triangulating node 2120
+triangulating node 2121
+triangulating node 2122
+triangulating node 2123
+triangulating node 2124
+triangulating node 2125
+triangulating node 2126
+triangulating node 2127
+triangulating node 2128
+triangulating node 2129
+triangulating node 2130
+triangulating node 2131
+triangulating node 2132
+triangulating node 2133
+triangulating node 2134
+triangulating node 2135
+triangulating node 2136
+triangulating node 2137
+triangulating node 2138
+triangulating node 2139
+triangulating node 2140
+triangulating node 2141
+triangulating node 2142
+triangulating node 2143
+triangulating node 2144
+triangulating node 2145
+triangulating node 2146
+triangulating node 2147
+triangulating node 2148
+triangulating node 2149
+triangulating node 2150
+triangulating node 2151
+triangulating node 2152
+triangulating node 2153
+triangulating node 2154
+triangulating node 2155
+triangulating node 2156
+triangulating node 2157
+triangulating node 2158
+triangulating node 2159
+triangulating node 2160
+triangulating node 2161
+triangulating node 2162
+triangulating node 2163
+triangulating node 2164
+triangulating node 2165
+triangulating node 2166
+triangulating node 2167
+triangulating node 2168
+triangulating node 2169
+triangulating node 2170
+triangulating node 2171
+triangulating node 2172
+triangulating node 2173
+triangulating node 2174
+triangulating node 2175
+triangulating node 2176
+triangulating node 2177
+triangulating node 2178
+triangulating node 2179
+triangulating node 2180
+triangulating node 2181
+triangulating node 2182
+triangulating node 2183
+triangulating node 2184
+triangulating node 2185
+triangulating node 2186
+triangulating node 2187
+triangulating node 2188
+triangulating node 2189
+triangulating node 2190
+triangulating node 2191
+triangulating node 2192
+triangulating node 2193
+triangulating node 2194
+triangulating node 2195
+triangulating node 2196
+triangulating node 2197
+triangulating node 2198
+triangulating node 2199
+triangulating node 2200
+triangulating node 2201
+triangulating node 2202
+triangulating node 2203
+triangulating node 2204
+triangulating node 2205
+triangulating node 2206
+triangulating node 2207
+triangulating node 2208
+triangulating node 2209
+triangulating node 2210
+triangulating node 2211
+triangulating node 2212
+triangulating node 2213
+triangulating node 2214
+triangulating node 2215
+triangulating node 2216
+triangulating node 2217
+triangulating node 2218
+triangulating node 2219
+triangulating node 2220
+triangulating node 2221
+triangulating node 2222
+triangulating node 2223
+triangulating node 2224
+triangulating node 2225
+triangulating node 2226
+triangulating node 2227
+triangulating node 2228
+triangulating node 2229
+triangulating node 2230
+triangulating node 2231
+triangulating node 2232
+triangulating node 2233
+triangulating node 2234
+triangulating node 2235
+triangulating node 2236
+triangulating node 2237
+triangulating node 2238
+triangulating node 2239
+triangulating node 2240
+triangulating node 2241
+triangulating node 2242
+triangulating node 2243
+triangulating node 2244
+triangulating node 2245
+triangulating node 2246
+triangulating node 2247
+triangulating node 2248
+triangulating node 2249
+triangulating node 2250
+triangulating node 2251
+triangulating node 2252
+triangulating node 2253
+triangulating node 2254
+triangulating node 2255
+triangulating node 2256
+triangulating node 2257
+triangulating node 2258
+triangulating node 2259
+triangulating node 2260
+triangulating node 2261
+triangulating node 2262
+triangulating node 2263
+triangulating node 2264
+triangulating node 2265
+triangulating node 2266
+triangulating node 2267
+triangulating node 2268
+triangulating node 2269
+triangulating node 2270
+triangulating node 2271
+triangulating node 2272
+triangulating node 2273
+triangulating node 2274
+triangulating node 2275
+triangulating node 2276
+triangulating node 2277
+triangulating node 2278
+triangulating node 2279
+triangulating node 2280
+triangulating node 2281
+triangulating node 2282
+triangulating node 2283
+triangulating node 2284
+triangulating node 2285
+triangulating node 2286
+triangulating node 2287
+triangulating node 2288
+triangulating node 2289
+triangulating node 2290
+triangulating node 2291
+triangulating node 2292
+triangulating node 2293
+triangulating node 2294
+triangulating node 2295
+triangulating node 2296
+triangulating node 2297
+triangulating node 2298
+triangulating node 2299
+triangulating node 2300
+triangulating node 2301
+triangulating node 2302
+triangulating node 2303
+triangulating node 2304
+triangulating node 2305
+triangulating node 2306
+triangulating node 2307
+triangulating node 2308
+triangulating node 2309
+triangulating node 2310
+triangulating node 2311
+triangulating node 2312
+triangulating node 2313
+triangulating node 2314
+triangulating node 2315
+triangulating node 2316
+triangulating node 2317
+triangulating node 2318
+triangulating node 2319
+triangulating node 2320
+triangulating node 2321
+triangulating node 2322
+triangulating node 2323
+triangulating node 2324
+triangulating node 2325
+triangulating node 2326
+triangulating node 2327
+triangulating node 2328
+triangulating node 2329
+triangulating node 2330
+triangulating node 2331
+triangulating node 2332
+triangulating node 2333
+triangulating node 2334
+triangulating node 2335
+triangulating node 2336
+triangulating node 2337
+triangulating node 2338
+triangulating node 2339
+triangulating node 2340
+triangulating node 2341
+triangulating node 2342
+triangulating node 2343
+triangulating node 2344
+triangulating node 2345
+triangulating node 2346
+triangulating node 2347
+triangulating node 2348
+triangulating node 2349
+triangulating node 2350
+triangulating node 2351
+triangulating node 2352
+triangulating node 2353
+triangulating node 2354
+triangulating node 2355
+triangulating node 2356
+triangulating node 2357
+triangulating node 2358
+triangulating node 2359
+triangulating node 2360
+triangulating node 2361
+triangulating node 2362
+triangulating node 2363
+triangulating node 2364
+triangulating node 2365
+triangulating node 2366
+triangulating node 2367
+triangulating node 2368
+triangulating node 2369
+triangulating node 2370
+triangulating node 2371
+triangulating node 2372
+triangulating node 2373
+triangulating node 2374
+triangulating node 2375
+triangulating node 2376
+triangulating node 2377
+triangulating node 2378
+triangulating node 2379
+triangulating node 2380
+triangulating node 2381
+triangulating node 2382
+triangulating node 2383
+triangulating node 2384
+triangulating node 2385
+triangulating node 2386
+triangulating node 2387
+triangulating node 2388
+triangulating node 2389
+triangulating node 2390
+triangulating node 2391
+triangulating node 2392
+triangulating node 2393
+triangulating node 2394
+triangulating node 2395
+triangulating node 2396
+triangulating node 2397
+triangulating node 2398
+triangulating node 2399
+triangulating node 2400
+triangulating node 2401
+triangulating node 2402
+triangulating node 2403
+triangulating node 2404
+triangulating node 2405
+triangulating node 2406
+triangulating node 2407
+triangulating node 2408
+triangulating node 2409
+triangulating node 2410
+triangulating node 2411
+triangulating node 2412
+triangulating node 2413
+triangulating node 2414
+triangulating node 2415
+triangulating node 2416
+triangulating node 2417
+triangulating node 2418
+triangulating node 2419
+triangulating node 2420
+triangulating node 2421
+triangulating node 2422
+triangulating node 2423
+triangulating node 2424
+triangulating node 2425
+triangulating node 2426
+triangulating node 2427
+triangulating node 2428
+triangulating node 2429
+triangulating node 2430
+triangulating node 2431
+triangulating node 2432
+triangulating node 2433
+triangulating node 2434
+triangulating node 2435
+triangulating node 2436
+triangulating node 2437
+triangulating node 2438
+triangulating node 2439
+triangulating node 2440
+triangulating node 2441
+triangulating node 2442
+triangulating node 2443
+triangulating node 2444
+triangulating node 2445
+triangulating node 2446
+triangulating node 2447
+triangulating node 2448
+triangulating node 2449
+triangulating node 2450
+triangulating node 2451
+triangulating node 2452
+triangulating node 2453
+triangulating node 2454
+triangulating node 2455
+triangulating node 2456
+triangulating node 2457
+triangulating node 2458
+triangulating node 2459
+triangulating node 2460
+triangulating node 2461
+triangulating node 2462
+triangulating node 2463
+triangulating node 2464
+triangulating node 2465
+triangulating node 2466
+triangulating node 2467
+triangulating node 2468
+triangulating node 2469
+triangulating node 2470
+triangulating node 2471
+triangulating node 2472
+triangulating node 2473
+triangulating node 2474
+triangulating node 2475
+triangulating node 2476
+triangulating node 2477
+triangulating node 2478
+triangulating node 2479
+triangulating node 2480
+triangulating node 2481
+triangulating node 2482
+triangulating node 2483
+triangulating node 2484
+triangulating node 2485
+triangulating node 2486
+triangulating node 2487
+triangulating node 2488
+triangulating node 2489
+triangulating node 2490
+triangulating node 2491
+triangulating node 2492
+triangulating node 2493
+triangulating node 2494
+triangulating node 2495
+triangulating node 2496
+triangulating node 2497
+triangulating node 2498
+triangulating node 2499
+triangulating node 2500
+triangulating node 2501
+triangulating node 2502
+triangulating node 2503
+triangulating node 2504
+triangulating node 2505
+triangulating node 2506
+triangulating node 2507
+triangulating node 2508
+triangulating node 2509
+triangulating node 2510
+triangulating node 2511
+triangulating node 2512
+triangulating node 2513
+triangulating node 2514
+triangulating node 2515
+triangulating node 2516
+triangulating node 2517
+triangulating node 2518
+triangulating node 2519
+triangulating node 2520
+triangulating node 2521
+triangulating node 2522
+triangulating node 2523
+triangulating node 2524
+triangulating node 2525
+triangulating node 2526
+triangulating node 2527
+triangulating node 2528
+triangulating node 2529
+triangulating node 2530
+triangulating node 2531
+triangulating node 2532
+triangulating node 2533
+triangulating node 2534
+triangulating node 2535
+triangulating node 2536
+triangulating node 2537
+triangulating node 2538
+triangulating node 2539
+triangulating node 2540
+triangulating node 2541
+triangulating node 2542
+triangulating node 2543
+triangulating node 2544
+triangulating node 2545
+triangulating node 2546
+triangulating node 2547
+triangulating node 2548
+triangulating node 2549
+triangulating node 2550
+triangulating node 2551
+triangulating node 2552
+triangulating node 2553
+triangulating node 2554
+triangulating node 2555
+triangulating node 2556
+triangulating node 2557
+triangulating node 2558
+triangulating node 2559
+triangulating node 2560
+triangulating node 2561
+triangulating node 2562
+triangulating node 2563
+triangulating node 2564
+triangulating node 2565
+triangulating node 2566
+triangulating node 2567
+triangulating node 2568
+triangulating node 2569
+triangulating node 2570
+triangulating node 2571
+triangulating node 2572
+triangulating node 2573
+triangulating node 2574
+triangulating node 2575
+triangulating node 2576
+triangulating node 2577
+triangulating node 2578
+triangulating node 2579
+triangulating node 2580
+triangulating node 2581
+triangulating node 2582
+triangulating node 2583
+triangulating node 2584
+triangulating node 2585
+triangulating node 2586
+triangulating node 2587
+triangulating node 2588
+triangulating node 2589
+triangulating node 2590
+triangulating node 2591
+triangulating node 2592
+triangulating node 2593
+triangulating node 2594
+triangulating node 2595
+triangulating node 2596
+triangulating node 2597
+triangulating node 2598
+triangulating node 2599
+triangulating node 2600
+triangulating node 2601
+triangulating node 2602
+triangulating node 2603
+triangulating node 2604
+triangulating node 2605
+triangulating node 2606
+triangulating node 2607
+triangulating node 2608
+triangulating node 2609
+triangulating node 2610
+triangulating node 2611
+triangulating node 2612
+triangulating node 2613
+triangulating node 2614
+triangulating node 2615
+triangulating node 2616
+triangulating node 2617
+triangulating node 2618
+triangulating node 2619
+triangulating node 2620
+triangulating node 2621
+triangulating node 2622
+triangulating node 2623
+triangulating node 2624
+triangulating node 2625
+triangulating node 2626
+triangulating node 2627
+triangulating node 2628
+triangulating node 2629
+triangulating node 2630
+triangulating node 2631
+triangulating node 2632
+triangulating node 2633
+triangulating node 2634
+triangulating node 2635
+triangulating node 2636
+triangulating node 2637
+triangulating node 2638
+triangulating node 2639
+triangulating node 2640
+triangulating node 2641
+triangulating node 2642
+triangulating node 2643
+triangulating node 2644
+triangulating node 2645
+triangulating node 2646
+triangulating node 2647
+triangulating node 2648
+triangulating node 2649
+triangulating node 2650
+triangulating node 2651
+triangulating node 2652
+triangulating node 2653
+triangulating node 2654
+triangulating node 2655
+triangulating node 2656
+triangulating node 2657
+triangulating node 2658
+triangulating node 2659
+triangulating node 2660
+triangulating node 2661
+triangulating node 2662
+triangulating node 2663
+triangulating node 2664
+triangulating node 2665
+triangulating node 2666
+triangulating node 2667
+triangulating node 2668
+triangulating node 2669
+triangulating node 2670
+triangulating node 2671
+triangulating node 2672
+triangulating node 2673
+triangulating node 2674
+triangulating node 2675
+triangulating node 2676
+triangulating node 2677
+triangulating node 2678
+triangulating node 2679
+triangulating node 2680
+triangulating node 2681
+triangulating node 2682
+triangulating node 2683
+triangulating node 2684
+triangulating node 2685
+triangulating node 2686
+triangulating node 2687
+triangulating node 2688
+triangulating node 2689
+triangulating node 2690
+triangulating node 2691
+triangulating node 2692
+triangulating node 2693
+triangulating node 2694
+triangulating node 2695
+triangulating node 2696
+triangulating node 2697
+triangulating node 2698
+triangulating node 2699
+triangulating node 2700
+triangulating node 2701
+triangulating node 2702
+triangulating node 2703
+triangulating node 2704
+triangulating node 2705
+triangulating node 2706
+triangulating node 2707
+triangulating node 2708
+triangulating node 2709
+triangulating node 2710
+triangulating node 2711
+triangulating node 2712
+triangulating node 2713
+triangulating node 2714
+triangulating node 2715
+triangulating node 2716
+triangulating node 2717
+triangulating node 2718
+triangulating node 2719
+triangulating node 2720
+triangulating node 2721
+triangulating node 2722
+triangulating node 2723
+triangulating node 2724
+triangulating node 2725
+triangulating node 2726
+triangulating node 2727
+triangulating node 2728
+triangulating node 2729
+triangulating node 2730
+triangulating node 2731
+triangulating node 2732
+triangulating node 2733
+triangulating node 2734
+triangulating node 2735
+triangulating node 2736
+triangulating node 2737
+triangulating node 2738
+triangulating node 2739
+triangulating node 2740
+triangulating node 2741
+triangulating node 2742
+triangulating node 2743
+triangulating node 2744
+triangulating node 2745
+triangulating node 2746
+triangulating node 2747
+triangulating node 2748
+triangulating node 2749
+triangulating node 2750
+triangulating node 2751
+triangulating node 2752
+triangulating node 2753
+triangulating node 2754
+triangulating node 2755
+triangulating node 2756
+triangulating node 2757
+triangulating node 2758
+triangulating node 2759
+triangulating node 2760
+triangulating node 2761
+triangulating node 2762
+triangulating node 2763
+triangulating node 2764
+triangulating node 2765
+triangulating node 2766
+triangulating node 2767
+triangulating node 2768
+triangulating node 2769
+triangulating node 2770
+triangulating node 2771
+triangulating node 2772
+triangulating node 2773
+triangulating node 2774
+triangulating node 2775
+triangulating node 2776
+triangulating node 2777
+triangulating node 2778
+triangulating node 2779
+triangulating node 2780
+triangulating node 2781
+triangulating node 2782
+triangulating node 2783
+triangulating node 2784
+triangulating node 2785
+triangulating node 2786
+triangulating node 2787
+triangulating node 2788
+triangulating node 2789
+triangulating node 2790
+triangulating node 2791
+triangulating node 2792
+triangulating node 2793
+triangulating node 2794
+triangulating node 2795
+triangulating node 2796
+triangulating node 2797
+triangulating node 2798
+triangulating node 2799
+triangulating node 2800
+triangulating node 2801
+triangulating node 2802
+triangulating node 2803
+triangulating node 2804
+triangulating node 2805
+triangulating node 2806
+triangulating node 2807
+triangulating node 2808
+triangulating node 2809
+triangulating node 2810
+triangulating node 2811
+triangulating node 2812
+triangulating node 2813
+triangulating node 2814
+triangulating node 2815
+triangulating node 2816
+triangulating node 2817
+triangulating node 2818
+triangulating node 2819
+triangulating node 2820
+triangulating node 2821
+triangulating node 2822
+triangulating node 2823
+triangulating node 2824
+triangulating node 2825
+triangulating node 2826
+triangulating node 2827
+triangulating node 2828
+triangulating node 2829
+triangulating node 2830
+triangulating node 2831
+triangulating node 2832
+triangulating node 2833
+triangulating node 2834
+triangulating node 2835
+triangulating node 2836
+triangulating node 2837
+triangulating node 2838
+triangulating node 2839
+triangulating node 2840
+triangulating node 2841
+triangulating node 2842
+triangulating node 2843
+triangulating node 2844
+triangulating node 2845
+triangulating node 2846
+triangulating node 2847
+triangulating node 2848
+triangulating node 2849
+triangulating node 2850
+triangulating node 2851
+triangulating node 2852
+triangulating node 2853
+triangulating node 2854
+triangulating node 2855
+triangulating node 2856
+triangulating node 2857
+triangulating node 2858
+triangulating node 2859
+triangulating node 2860
+triangulating node 2861
+triangulating node 2862
+triangulating node 2863
+triangulating node 2864
+triangulating node 2865
+triangulating node 2866
+triangulating node 2867
+triangulating node 2868
+triangulating node 2869
+triangulating node 2870
+triangulating node 2871
+triangulating node 2872
+triangulating node 2873
+triangulating node 2874
+triangulating node 2875
+triangulating node 2876
+triangulating node 2877
+triangulating node 2878
+triangulating node 2879
+triangulating node 2880
+triangulating node 2881
+triangulating node 2882
+triangulating node 2883
+triangulating node 2884
+triangulating node 2885
+triangulating node 2886
+triangulating node 2887
+triangulating node 2888
+triangulating node 2889
+triangulating node 2890
+triangulating node 2891
+triangulating node 2892
+triangulating node 2893
+triangulating node 2894
+triangulating node 2895
+triangulating node 2896
+triangulating node 2897
+triangulating node 2898
+triangulating node 2899
+triangulating node 2900
+triangulating node 2901
+triangulating node 2902
+triangulating node 2903
+triangulating node 2904
+triangulating node 2905
+triangulating node 2906
+triangulating node 2907
+triangulating node 2908
+triangulating node 2909
+triangulating node 2910
+triangulating node 2911
+triangulating node 2912
+triangulating node 2913
+triangulating node 2914
+triangulating node 2915
+triangulating node 2916
+triangulating node 2917
+triangulating node 2918
+triangulating node 2919
+triangulating node 2920
+triangulating node 2921
+triangulating node 2922
+triangulating node 2923
+triangulating node 2924
+triangulating node 2925
+triangulating node 2926
+triangulating node 2927
+triangulating node 2928
+triangulating node 2929
+triangulating node 2930
+triangulating node 2931
+triangulating node 2932
+triangulating node 2933
+triangulating node 2934
+triangulating node 2935
+triangulating node 2936
+triangulating node 2937
+triangulating node 2938
+triangulating node 2939
+triangulating node 2940
+triangulating node 2941
+triangulating node 2942
+triangulating node 2943
+triangulating node 2944
+triangulating node 2945
+triangulating node 2946
+triangulating node 2947
+triangulating node 2948
+triangulating node 2949
+triangulating node 2950
+triangulating node 2951
+triangulating node 2952
+triangulating node 2953
+triangulating node 2954
+triangulating node 2955
+triangulating node 2956
+triangulating node 2957
+triangulating node 2958
+triangulating node 2959
+triangulating node 2960
+triangulating node 2961
+triangulating node 2962
+triangulating node 2963
+triangulating node 2964
+triangulating node 2965
+triangulating node 2966
+triangulating node 2967
+triangulating node 2968
+triangulating node 2969
+triangulating node 2970
+triangulating node 2971
+triangulating node 2972
+triangulating node 2973
+triangulating node 2974
+triangulating node 2975
+triangulating node 2976
+triangulating node 2977
+triangulating node 2978
+triangulating node 2979
+triangulating node 2980
+triangulating node 2981
+triangulating node 2982
+triangulating node 2983
+triangulating node 2984
+triangulating node 2985
+triangulating node 2986
+triangulating node 2987
+triangulating node 2988
+triangulating node 2989
+triangulating node 2990
+triangulating node 2991
+triangulating node 2992
+triangulating node 2993
+triangulating node 2994
+triangulating node 2995
+triangulating node 2996
+triangulating node 2997
+triangulating node 2998
+triangulating node 2999
+triangulating node 3000
+triangulating node 3001
+triangulating node 3002
+triangulating node 3003
+triangulating node 3004
+triangulating node 3005
+triangulating node 3006
+triangulating node 3007
+triangulating node 3008
+triangulating node 3009
+triangulating node 3010
+triangulating node 3011
+triangulating node 3012
+triangulating node 3013
+triangulating node 3014
+triangulating node 3015
+triangulating node 3016
+triangulating node 3017
+triangulating node 3018
+triangulating node 3019
+triangulating node 3020
+triangulating node 3021
+triangulating node 3022
+triangulating node 3023
+triangulating node 3024
+triangulating node 3025
+triangulating node 3026
+triangulating node 3027
+triangulating node 3028
+triangulating node 3029
+triangulating node 3030
+triangulating node 3031
+triangulating node 3032
+triangulating node 3033
+triangulating node 3034
+triangulating node 3035
+triangulating node 3036
+triangulating node 3037
+triangulating node 3038
+triangulating node 3039
+triangulating node 3040
+triangulating node 3041
+triangulating node 3042
+triangulating node 3043
+triangulating node 3044
+triangulating node 3045
+triangulating node 3046
+triangulating node 3047
+triangulating node 3048
+triangulating node 3049
+triangulating node 3050
+triangulating node 3051
+triangulating node 3052
+triangulating node 3053
+triangulating node 3054
+triangulating node 3055
+triangulating node 3056
+triangulating node 3057
+triangulating node 3058
+triangulating node 3059
+triangulating node 3060
+triangulating node 3061
+triangulating node 3062
+triangulating node 3063
+triangulating node 3064
+triangulating node 3065
+triangulating node 3066
+triangulating node 3067
+triangulating node 3068
+triangulating node 3069
+triangulating node 3070
+triangulating node 3071
+triangulating node 3072
+triangulating node 3073
+triangulating node 3074
+triangulating node 3075
+triangulating node 3076
+triangulating node 3077
+triangulating node 3078
+triangulating node 3079
+triangulating node 3080
+triangulating node 3081
+triangulating node 3082
+triangulating node 3083
+triangulating node 3084
+triangulating node 3085
+triangulating node 3086
+triangulating node 3087
+triangulating node 3088
+triangulating node 3089
+triangulating node 3090
+triangulating node 3091
+triangulating node 3092
+triangulating node 3093
+triangulating node 3094
+triangulating node 3095
+triangulating node 3096
+triangulating node 3097
+triangulating node 3098
+triangulating node 3099
+triangulating node 3100
+triangulating node 3101
+triangulating node 3102
+triangulating node 3103
+triangulating node 3104
+triangulating node 3105
+triangulating node 3106
+triangulating node 3107
+triangulating node 3108
+triangulating node 3109
+triangulating node 3110
+triangulating node 3111
+triangulating node 3112
+triangulating node 3113
+triangulating node 3114
+triangulating node 3115
+triangulating node 3116
+triangulating node 3117
+triangulating node 3118
+triangulating node 3119
+triangulating node 3120
+triangulating node 3121
+triangulating node 3122
+triangulating node 3123
+triangulating node 3124
+triangulating node 3125
+triangulating node 3126
+triangulating node 3127
+triangulating node 3128
+triangulating node 3129
+triangulating node 3130
+triangulating node 3131
+triangulating node 3132
+triangulating node 3133
+triangulating node 3134
+triangulating node 3135
+triangulating node 3136
+triangulating node 3137
+triangulating node 3138
+197685
+maxMinus1.992075103205243
+cntyidfp	lof		attrsVal
+----------------------------------------------------------------------1
+48029	467.1951	[0.0347, 0.0114, 0.0195, 0.0103, 0.0151, 0.0207, 0.0228, ]
+nbs
+48493	0.0041	[0.0001, 0.0000, 0.0001, 0.0001, 0.0000, 0.0000, 0.0002, ]
+48091	0.0051	[0.0007, 0.0002, 0.0002, 0.0003, 0.0002, 0.0003, 0.0003, ]
+48259	0.0135	[0.0000, 0.0001, 0.0000, 0.0001, 0.0000, 0.0000, 0.0000, ]
+48013	0.0112	[0.0005, 0.0000, 0.0001, 0.0000, 0.0001, 0.0000, 0.0001, ]
+48187	0.0508	[0.0007, 0.0002, 0.0007, 0.0008, 0.0007, 0.0008, 0.0010, ]
+48325	0.0021	[0.0001, 0.0000, 0.0002, 0.0001, 0.0000, 0.0000, 0.0002, ]
+----------------------------------------------------------------------2
+48303	385.8121	[0.0085, 0.0022, 0.0018, 0.0006, 0.0014, 0.0022, 0.0034, ]
+nbs
+48107	0.0065	[0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, ]
+48169	0.0078	[0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, ]
+48445	0.0087	[0.0001, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, ]
+48305	0.0037	[0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, ]
+48219	0.0015	[0.0001, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0001, ]
+48189	0.0744	[0.0002, 0.0000, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, ]
+48153	0.0175	[0.0001, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, ]
+----------------------------------------------------------------------3
+18003	268.0527	[0.0097, 0.0016, 0.0015, 0.0012, 0.0016, 0.0064, 0.0116, ]
+nbs
+18113	0.0029	[0.0002, 0.0001, 0.0001, 0.0000, 0.0001, 0.0004, 0.0003, ]
+18183	0.0580	[0.0000, 0.0001, 0.0000, 0.0000, 0.0000, 0.0000, 0.0001, ]
+18069	0.0134	[0.0003, 0.0001, 0.0001, 0.0000, 0.0000, 0.0000, 0.0001, ]
+18033	0.0598	[0.0002, 0.0001, 0.0001, 0.0000, 0.0001, 0.0003, 0.0002, ]
+18001	0.0303	[0.0002, 0.0000, 0.0000, 0.0000, 0.0001, 0.0001, 0.0000, ]
+39161	0.0351	[0.0001, 0.0001, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, ]
+18179	0.0328	[0.0000, 0.0000, 0.0000, 0.0000, 0.0001, 0.0000, 0.0000, ]
+39125	0.0510	[0.0000, 0.0000, 0.0000, 0.0000, 0.0001, 0.0000, 0.0000, ]
+----------------------------------------------------------------------4
+22033	233.7310	[0.0151, 0.0054, 0.0013, 0.0012, 0.0024, 0.0261, 0.0057, ]
+nbs
+22047	0.0769	[0.0002, 0.0000, 0.0000, 0.0000, 0.0001, 0.0003, 0.0000, ]
+22005	0.0579	[0.0007, 0.0001, 0.0001, 0.0002, 0.0000, 0.0005, 0.0002, ]
+22063	0.0181	[0.0003, 0.0001, 0.0001, 0.0001, 0.0002, 0.0001, 0.0003, ]
+22037	0.0106	[0.0001, 0.0000, 0.0000, 0.0000, 0.0000, 0.0001, 0.0000, ]
+22125	0.0232	[0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, ]
+22121	0.0419	[0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0002, 0.0000, ]
+22091	0.0065	[0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0001, 0.0000, ]
+----------------------------------------------------------------------5
+40143	192.3889	[0.0187, 0.0044, 0.0025, 0.0021, 0.0048, 0.0146, 0.0157, ]
+nbs
+40037	0.0628	[0.0002, 0.0001, 0.0001, 0.0002, 0.0001, 0.0002, 0.0002, ]
+40147	0.0368	[0.0008, 0.0004, 0.0001, 0.0002, 0.0002, 0.0002, 0.0002, ]
+40145	0.0998	[0.0003, 0.0000, 0.0001, 0.0001, 0.0002, 0.0003, 0.0013, ]
+40111	0.0309	[0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0000, 0.0001, ]
+40131	0.0130	[0.0003, 0.0001, 0.0002, 0.0001, 0.0002, 0.0001, 0.0004, ]
+40113	0.0519	[0.0003, 0.0000, 0.0001, 0.0001, 0.0000, 0.0000, 0.0001, ]
+----------------------------------------------------------------------6
+29077	186.5339	[0.0026, 0.0016, 0.0014, 0.0010, 0.0026, 0.0041, 0.0031, ]
+nbs
+29043	0.0009	[0.0002, 0.0000, 0.0002, 0.0001, 0.0002, 0.0001, 0.0001, ]
+29057	0.0716	[0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, ]
+29225	0.0307	[0.0000, 0.0000, 0.0001, 0.0000, 0.0001, 0.0000, 0.0002, ]
+29059	0.0003	[0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, ]
+29109	0.0816	[0.0001, 0.0000, 0.0001, 0.0000, 0.0001, 0.0001, 0.0001, ]
+29167	0.0856	[0.0001, 0.0000, 0.0001, 0.0000, 0.0000, 0.0000, 0.0000, ]
+29209	0.0845	[0.0001, 0.0000, 0.0000, 0.0000, 0.0001, 0.0000, 0.0001, ]
+----------------------------------------------------------------------7
+21093	184.6575	[0.0018, 0.0002, 0.0010, 0.0010, 0.0036, 0.0006, 0.0021, ]
+nbs
+21099	0.0717	[0.0001, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, ]
+21029	0.0062	[0.0002, 0.0001, 0.0001, 0.0001, 0.0002, 0.0001, 0.0003, ]
+21123	0.1245	[0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0001, ]
+21163	0.0038	[0.0000, 0.0000, 0.0002, 0.0001, 0.0002, 0.0000, 0.0002, ]
+21085	0.0548	[0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0001, ]
+21027	0.0060	[0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, ]
+----------------------------------------------------------------------8
+30111	176.9108	[0.0005, 0.0004, 0.0004, 0.0008, 0.0009, 0.0003, 0.0008, ]
+nbs
+30095	0.0124	[0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, ]
+30009	0.0699	[0.0000, 0.0000, 0.0000, 0.0001, 0.0000, 0.0000, 0.0000, ]
+30065	0.0230	[0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, ]
+30037	0.0207	[0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, ]
+30103	0.0308	[0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, ]
+30003	0.0202	[0.0001, 0.0000, 0.0000, 0.0001, 0.0000, 0.0000, 0.0000, ]
+56003	0.1306	[0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, ]
+----------------------------------------------------------------------9
+12073	169.1067	[0.0118, 0.0039, 0.0018, 0.0015, 0.0029, 0.0028, 0.0035, ]
+nbs
+12039	0.0038	[0.0003, 0.0001, 0.0001, 0.0001, 0.0000, 0.0001, 0.0001, ]
+13131	0.0309	[0.0003, 0.0000, 0.0000, 0.0000, 0.0000, 0.0001, 0.0001, ]
+12129	0.0149	[0.0001, 0.0000, 0.0001, 0.0000, 0.0000, 0.0001, 0.0000, ]
+13275	0.1109	[0.0007, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0000, ]
+12065	0.0222	[0.0001, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, ]
+----------------------------------------------------------------------10
+39049	136.4611	[0.0787, 0.0244, 0.0065, 0.0200, 0.0175, 0.0169, 0.0511, ]
+nbs
+39089	0.0327	[0.0014, 0.0006, 0.0004, 0.0004, 0.0006, 0.0004, 0.0011, ]
+39097	0.0241	[0.0004, 0.0001, 0.0000, 0.0003, 0.0001, 0.0000, 0.0003, ]
+39129	0.0107	[0.0004, 0.0000, 0.0001, 0.0001, 0.0001, 0.0000, 0.0001, ]
+39041	0.1372	[0.0049, 0.0015, 0.0003, 0.0007, 0.0013, 0.0005, 0.0014, ]
+39159	0.0134	[0.0003, 0.0001, 0.0002, 0.0002, 0.0002, 0.0001, 0.0001, ]
+39045	0.0423	[0.0023, 0.0005, 0.0004, 0.0005, 0.0004, 0.0006, 0.0012, ]
+----------------------------------------------------------------------
